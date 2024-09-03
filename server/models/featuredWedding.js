@@ -62,11 +62,11 @@ const weddingDetailsSchema = new mongoose.Schema({
     required: true,
   },
   about_host : {
-    groomSideStory: {
+    groom_story: {
       type: String,
       required: true,
     },
-    brideSideStory : {
+    bride_story : {
       type : String,
       required: true,
     },

@@ -22,7 +22,7 @@ import MoreAboutCouple from "../../Formcomponents/moreAboutCouple";
 import EventDetails from "../../Formcomponents/eventDetails";
 import CermonyGuideDetails from "../../Formcomponents/cermonyGuideDetails";
 import AnyOtherDetails from "../../Formcomponents/anyOtherDetails";
-import axios from 'axios';
+import axios from "axios";
 
 const steps = [
   {
@@ -44,10 +44,10 @@ const HostWeddingModel = ({ opened, setOpened }) => {
   const [confirmClose, setConfirmClose] = React.useState(false);
   const [weddingDetails, setWeddingDetails] = React.useState({
     relation_with_couple: "",
-    weddingCity : "",
-    weddingCountry:"",
-    weddingPinCode:"",
-    weddingState:"",
+    weddingCity: "",
+    weddingCountry: "",
+    weddingPinCode: "",
+    weddingState: "",
     groom_firstname: "",
     groom_surname: "",
     groom_email: "",
@@ -62,9 +62,10 @@ const HostWeddingModel = ({ opened, setOpened }) => {
       bride_story: "",
     },
     days_of_event: 1,
-    events: [],
+    alcohol_offering: false,
     main_language: [],
     diet: [],
+    events: [],
     ceremony_guide_first_name: "",
     ceremony_guide_last_name: "",
     ceremony_guide_number: "",
@@ -78,6 +79,10 @@ const HostWeddingModel = ({ opened, setOpened }) => {
     setActiveStep(0);
     setWeddingDetails({
       relation_with_couple: "",
+      weddingCity: "",
+      weddingCountry: "",
+      weddingPinCode: "",
+      weddingState: "",
       groom_firstname: "",
       groom_surname: "",
       groom_email: "",
@@ -91,14 +96,14 @@ const HostWeddingModel = ({ opened, setOpened }) => {
         groom_story: "",
         bride_story: "",
       },
+      days_of_event: 1,
       alcohol_offering: false,
       main_language: [],
       diet: [],
-      days_of_event: 1,
       events: [],
       ceremony_guide_first_name: "",
       ceremony_guide_last_name: "",
-      ceremony_guide_numder: "",
+      ceremony_guide_number: "",
       ceremony_guide_email: "",
       ceremony_guide_relation_with_couple: "",
       ceremony_guide_spoken_language: "",
@@ -116,32 +121,34 @@ const HostWeddingModel = ({ opened, setOpened }) => {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
   };
 
-  const handleAddWedding = async() => {
-    try{
+  const handleAddWedding = async (e) => {
+    e.preventDefault();
+    try {
       //api to push data to datbase
-      console.log(weddingDetails)
-      const response = await fetch(`https://bemyguest-backend.onrender.com/weddings/add-wedding`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(weddingDetails),
-      });
+      console.log(weddingDetails);
+      const response = await fetch(
+        `https://bemyguest-backend.onrender.com/weddings/add-wedding`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(weddingDetails),
+        }
+      );
       const data = await response.json();
-        // const {data} = await axios.post(`https://bemyguest-backend.onrender.com/weddings/add-wedding`,weddingDetails)
-      if(data.success){
-        console.log(weddingDetails);
+      // const {data} = await axios.post(`https://bemyguest-backend.onrender.com/weddings/add-wedding`,weddingDetails)
+      if (data.success) {
+        console.log("Wedding details added successfully:", data);
         setOpened(false);
         handleReset();
-      }else{
+      } else {
         alert("Something went wrong,Please try again");
       }
-    }catch(e){
+    } catch (e) {
       console.log(e);
     }
   };
-
-   
 
   const handleConfirmClose = () => {
     setConfirmClose(true);
