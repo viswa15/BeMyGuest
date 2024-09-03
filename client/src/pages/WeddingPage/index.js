@@ -113,20 +113,29 @@ const WeddingPage = () => {
         <div style={{ paddingTop: "20px", paddingBottom: "20px" }}>
           <p className="itineary-para">
             Transportation :{" "}
-            <span className="itinerary-span-elem">
+            {/* <span className="itinerary-span-elem">
               {each.details.transportation}{" "}
+            </span> */}
+            <span className="itinerary-span-elem">
+              Included
             </span>
           </p>
           <p className="itineary-para">
-            Accomidation :{" "}
-            <span className="itinerary-span-elem">
+            Accomodation :{" "}
+            {/* <span className="itinerary-span-elem">
               {each.details.accommodation}{" "}
+            </span> */}
+            <span className="itinerary-span-elem">
+              Not Included
             </span>
           </p>
           <p className="itineary-para">
             Music / Dance :{" "}
-            <span className="itinerary-span-elem">
+            {/* <span className="itinerary-span-elem">
               {each.details.music_dancing}{" "}
+            </span> */}
+            <span className="itinerary-span-elem">
+              Included
             </span>
           </p>
           <p className="itineary-para">
