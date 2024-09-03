@@ -120,7 +120,7 @@ const HostWeddingModel = ({ opened, setOpened }) => {
     try{
       //api to push data to datbase
       console.log(weddingDetails)
-      const {data} = await axios.post(`${process.env.REACT_APP_API}/weddings/add-wedding`,weddingDetails)
+      const {data} = await axios.post(`https://bemyguest-backend.onrender.com/weddings/add-wedding`,weddingDetails)
       if(data.success){
         console.log(weddingDetails);
         setOpened(false);

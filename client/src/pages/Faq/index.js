@@ -18,7 +18,7 @@ const Faqpage = () => {
   //get faqs 
   const getFaqs = async() =>{
     try{
-        const {data} = await axios.get(`${process.env.REACT_APP_API}/static-content/faqs`)
+        const {data} = await axios.get(`https://bemyguest-backend.onrender.com/static-content/faqs`)
         if(data.success === true){
           setFaqsList(data.faqsData);
         }
@@ -36,7 +36,7 @@ const Faqpage = () => {
   //get contributions
   const getContributions = async() =>{
     try{
-        const {data} = await axios.get(`${process.env.REACT_APP_API}/static-content/contributions`)
+        const {data} = await axios.get(`https://bemyguest-backend.onrender.com/static-content/contributions`)
         if(data.success === true){
           setContributionsList(data.contributions);
         }
@@ -54,7 +54,7 @@ const Faqpage = () => {
   //preparations
   const getPreparations = async() =>{
     try{
-        const {data} = await axios.get(`${process.env.REACT_APP_API}/static-content/preparations`)
+        const {data} = await axios.get(`https://bemyguest-backend.onrender.com/static-content/preparations`)
         if(data.success === true){
           setPreparationsList(data.preparations);
         }
@@ -72,7 +72,7 @@ const Faqpage = () => {
   //trouble shootings
   const getTroubleShootings = async() =>{
     try{
-      const {data} = await axios.get(`${process.env.REACT_APP_API}/static-content/trouble-shootings`)
+      const {data} = await axios.get(`https://bemyguest-backend.onrender.com/static-content/trouble-shootings`)
       if(data.success === true){
         setTroubleShootingList(data.troubleShootings);
       }
@@ -90,7 +90,7 @@ const Faqpage = () => {
   //cancellations
   const getCancellations = async() =>{
     try{
-      const {data} = await axios.get(`${process.env.REACT_APP_API}/static-content/cancellation`)
+      const {data} = await axios.get(`https://bemyguest-backend.onrender.com/static-content/cancellation`)
       if(data.success === true){
         setCancellationList(data.cancellations);
       }

@@ -23,7 +23,7 @@ const Weddings = () => {
   const getFeaturedWeddings = async() =>{
     try{
         setapistatus(apiStatuslist.inProgress)
-        const {data} = await axios.get(`${process.env.REACT_APP_API}/weddings/featured-weddings`)
+        const {data} = await axios.get(`https://bemyguest-backend.onrender.com/weddings/featured-weddings`)
         if(data.success === true){
           setapistatus(apiStatuslist.success)
           setFeaturedWeddingsList(data.weddings);

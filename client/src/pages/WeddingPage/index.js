@@ -15,7 +15,8 @@ import { motion } from "framer-motion";
 import axios from "axios";
 
 const WeddingPage = () => {
-  const { id } = useParams();
+  const { _id } = useParams();
+  console.log("wedding Id:",_id);
   const [weddingData, setWeddingData] = useState(null);
   const [imageDimenstions, setImageDimentions] = useState();
   const [eventsArray, seteventsarray] = useState([]);
@@ -36,13 +37,23 @@ const WeddingPage = () => {
     });
   };
 
-  useEffect(() => {
-    const fetchedWatch = data.find((w) => w.id === id);
-    setWeddingData(fetchedWatch);
-    seteventsarray(fetchedWatch.events);
+  const getWedding = async() =>{
+    try{
+      const {data} = await axios.get(`https://bemyguest-backend.onrender.com/weddings/featured-wedding/${_id}`)
+      if(data.success){
+        setWeddingData(data.wedding);
+        seteventsarray(data.wedding.events);
+      }
+    }catch(e){
+      console.log(e);
+    }
+  }
 
+  useEffect(() => {
+   getWedding();
+   console.log("wedding details:",weddingData);
     //Api call need to be added
-  }, [id]);
+  }, [_id]);
 
   console.log(weddingData, imageDimenstions, eventsArray);
 

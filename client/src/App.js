@@ -31,7 +31,7 @@ function App() {
               <Route path="/" element={<Website />} />
               <Route path="/weddings">
                 <Route index element={<Weddings />} />
-                <Route path=":id" element={<WeddingPage />} />
+                <Route path="/:_id" element={<WeddingPage />} />
               </Route>
               <Route path="/client-gallery" element={<ClientGallery />} />
               <Route path="/contact-us" element={<ContactUs />} />

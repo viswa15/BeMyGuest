@@ -337,7 +337,7 @@ export const getWeddingsController = async (req, res) => {
 //get single wedding
 export const getWeddingController = async (req, res) => {
   try {
-    const { id } = req.params;
+    const { _id } = req.params;
     const wedding = await featuredWedding.findOne({ _id });
     res.status(201).send({
       success: true,

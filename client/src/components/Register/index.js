@@ -26,7 +26,7 @@ const Register = () => {
         return;
       }
 
-      const {data} = await axios.post(`${process.env.REACT_APP_API}/auth/user-register`,{name : username,email : gmail,password})
+      const {data} = await axios.post(`https://bemyguest-backend.onrender.com/auth/user-register`,{name : username,email : gmail,password})
       if(data.success) {
         navigate("/login")
       }else{

@@ -30,7 +30,7 @@ const Login = () => {
         submitFormFailure("Email must be a valid Gmail address.");
         return;
       }
-      const {data} = await axios.post(`${process.env.REACT_APP_API}/auth/user-login`,{email:username,password});
+      const {data} = await axios.post(`https://bemyguest-backend.onrender.com/auth/user-login`,{email:username,password});
       if (data.success) {
         submitFormSuccess(data.jwt_token);
       } else {

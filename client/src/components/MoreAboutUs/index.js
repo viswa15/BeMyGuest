@@ -22,7 +22,7 @@ const MoreAboutUs = () => {
   // for guest maus
   const getGuestMaus = async() =>{
     try{
-        const {data} = await axios.get(`${process.env.REACT_APP_API}/static-content/guest-maus`)
+        const {data} = await axios.get(`https://bemyguest-backend.onrender.com/static-content/guest-maus`)
         if(data.success === true){
           setGuestMaus(data.guestMausItems);
         }
@@ -40,7 +40,7 @@ const MoreAboutUs = () => {
   //for host maus
   const getHostMaus = async() =>{
     try{
-        const {data} = await axios.get(`${process.env.REACT_APP_API}/static-content/host-maus`)
+        const {data} = await axios.get(`https://bemyguest-backend.onrender.com/static-content/host-maus`)
         if(data.success === true){
           setHostMaus(data.hostMausItems);
         }

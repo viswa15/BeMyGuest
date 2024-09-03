@@ -16,7 +16,7 @@ const Testnomials = () => {
 
   const getTestimonials = async() =>{
     try{
-        const {data} = await axios.get(`${process.env.REACT_APP_API}/static-content/testimonials`)
+        const {data} = await axios.get(`https://bemyguest-backend.onrender.com/static-content/testimonials`)
         if(data.success === true){
           setTestimonialsList(data.testimonialsData);
         }

@@ -14,6 +14,6 @@ router.get("/recent-weddings",getTopSixWeddingsController)
 router.get("/featured-weddings",getWeddingsController);
 
 //get wedding based on its id
-router.get("/featured-wedding/:id",getWeddingController);
+router.get("/featured-wedding/:_id",getWeddingController);
 
 export default router;

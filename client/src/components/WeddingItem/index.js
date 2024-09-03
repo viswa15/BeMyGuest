@@ -11,7 +11,7 @@ const formatDate = (dateString) => {
 };
 
 const WeddingItem = ({ weddingdetails }) => {
-  const { groom_name, bride_name, location, country, image, id, events } =
+  const { groom_name, bride_name, weddingCity, weddingCountry, image, _id, events } =
     weddingdetails;
 
   const firstEventDate = events.length > 0 ? formatDate(events[0].date) : "N/A";
@@ -21,7 +21,7 @@ const WeddingItem = ({ weddingdetails }) => {
   const navigate = useNavigate();
 
   return (
-    <div className="wi-card" onClick={() => navigate(`../weddings/${id}`)}>
+    <div className="wi-card" onClick={() => navigate(`../weddings/${_id}`)}>
       <div
         className="wi-container"
         style={{
@@ -37,7 +37,7 @@ const WeddingItem = ({ weddingdetails }) => {
       </div>
       <div className="wi-lower-conatainer">
         <p>
-          {location}, {country}
+          {weddingCity}, {weddingCountry}
         </p>
         <p className="wi-date">
           {firstEventDate} to {lastEventDate}

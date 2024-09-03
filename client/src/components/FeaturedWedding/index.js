@@ -25,7 +25,7 @@ const FeaturedWedding = () => {
   //get featured weddings
   const getFeaturedWeddings = async() =>{
     try{
-      const {data} = await axios.get(`${process.env.REACT_APP_API}/weddings/recent-weddings`)
+      const {data} = await axios.get(`https://bemyguest-backend.onrender.com/weddings/recent-weddings`)
       if(data.success){
         setWeddingsList(data.weddings)
       }
