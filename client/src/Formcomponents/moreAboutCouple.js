@@ -11,8 +11,8 @@ const MoreAboutCouple = ({
   const [moreAboutCouple, setMoreboutCouple] = useState({
     image: weddingDetails.image || null,
     about_host: {
-      groom_story: weddingDetails.about_host?.groom_story || "",
-      bride_story: weddingDetails.about_host?.bride_story || "",
+      groomSideStory: weddingDetails.about_host?.groomSideStory || "",
+      brideSideStory: weddingDetails.about_host?.brideSideStory || "",
     },
   });
 
@@ -111,8 +111,8 @@ const MoreAboutCouple = ({
         label="Groom's Story *"
         variant="filled"
         size="small"
-        name="groom_story"
-        value={moreAboutCouple.about_host.groom_story}
+        name="groomSideStory"
+        value={moreAboutCouple.about_host.groomSideStory}
         onChange={handleChange}
         fullWidth
         margin="normal"
@@ -126,8 +126,8 @@ const MoreAboutCouple = ({
         label="Bride's Story *"
         variant="filled"
         size="small"
-        name="bride_story"
-        value={moreAboutCouple.about_host.bride_story}
+        name="brideSideStory"
+        value={moreAboutCouple.about_host.brideSideStory}
         onChange={handleChange}
         fullWidth
         margin="normal"

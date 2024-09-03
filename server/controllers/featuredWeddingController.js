@@ -213,7 +213,7 @@ export const createWeddingDetailsController = async (req, res) => {
     if (!image) {
       return res.status(400).json({ message: "Image is required." });
     }
-    if (!about_host || !about_host.groom_story || !about_host.bride_story) {
+    if (!about_host || !about_host.groomSideStory || !about_host.brideSideStory) {
       return res.status(400).json({ message: "Host stories for both groom and bride are required." });
     }
     if (!days_of_event) {

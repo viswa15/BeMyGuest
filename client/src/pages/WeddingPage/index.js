@@ -200,7 +200,7 @@ const WeddingPage = () => {
                     {" "}
                     Groom
                   </span>{" "}
-                  : {weddingData.about_host.groom_story}
+                  : {weddingData.about_host.groomSideStory}
                 </p>
                 <p style={{ color: "#beb0a7" }}>
                   <span
@@ -209,7 +209,7 @@ const WeddingPage = () => {
                     {" "}
                     Bride
                   </span>{" "}
-                  : {weddingData.about_host.bride_story}
+                  : {weddingData.about_host.brideSideStory}
                 </p>
               </div>
               <div className="daily-itinerary">

@@ -94,8 +94,8 @@
             }
         ],
         "about_host": {
-            "groom_story": "Viswa Teja and Chutki first met during a mutual friend's gathering in Bangalore. Their shared interests in music and travel quickly formed a bond. As they spent more time together, their friendship deepened into love. A memorable proposal on a serene evening in Bangalore made it clear that they were meant to be together.",
-            "bride_story": "Chutki, known for her warm personality and love for cultural traditions, found in Viswa Teja a perfect partner who shares her values and dreams. Their journey together has been filled with joy, laughter, and mutual respect, leading to this beautiful celebration of their union."
+            "groomSideStory": "Viswa Teja and Chutki first met during a mutual friend's gathering in Bangalore. Their shared interests in music and travel quickly formed a bond. As they spent more time together, their friendship deepened into love. A memorable proposal on a serene evening in Bangalore made it clear that they were meant to be together.",
+            "brideSideStory": "Chutki, known for her warm personality and love for cultural traditions, found in Viswa Teja a perfect partner who shares her values and dreams. Their journey together has been filled with joy, laughter, and mutual respect, leading to this beautiful celebration of their union."
         }
     },
     {
@@ -192,8 +192,8 @@
             }
         ],
         "about_host": {
-            "groom_story": "Rajesh and Neha met at a friend's wedding in Mumbai. Their connection was immediate, and they soon discovered their shared love for travel and food. After several adventures together, Rajesh proposed to Neha during a sunset at Marine Drive.",
-            "bride_story": "Neha, with her vibrant personality and passion for life, found her perfect partner in Rajesh. Their love story is filled with beautiful moments and endless laughter, leading to this exciting journey of marriage."
+            "groomSideStory": "Rajesh and Neha met at a friend's wedding in Mumbai. Their connection was immediate, and they soon discovered their shared love for travel and food. After several adventures together, Rajesh proposed to Neha during a sunset at Marine Drive.",
+            "brideSideStory": "Neha, with her vibrant personality and passion for life, found her perfect partner in Rajesh. Their love story is filled with beautiful moments and endless laughter, leading to this exciting journey of marriage."
         }
     },
     {
@@ -290,8 +290,8 @@
             }
         ],
         "about_host": {
-            "groom_story": "Arjun and Priya first met during a family function in New Delhi. Their shared cultural values and strong family ties brought them closer, leading to a beautiful bond that culminates in their wedding.",
-            "bride_story": "Priya's gentle nature and love for tradition made her the perfect match for Arjun. Their relationship blossomed through mutual respect and love, and they are excited to begin this new chapter together."
+            "groomSideStory": "Arjun and Priya first met during a family function in New Delhi. Their shared cultural values and strong family ties brought them closer, leading to a beautiful bond that culminates in their wedding.",
+            "brideSideStory": "Priya's gentle nature and love for tradition made her the perfect match for Arjun. Their relationship blossomed through mutual respect and love, and they are excited to begin this new chapter together."
         }
     },
     {
@@ -388,8 +388,8 @@
             }
         ],
         "about_host": {
-            "groom_story": "Vikram and Ananya met during their time at college in Chennai. Their shared passion for art and culture brought them together, and their love story blossomed into a beautiful relationship that leads to this union.",
-            "bride_story": "Ananya, with her deep-rooted love for tradition and family, found her perfect partner in Vikram. Their journey together has been filled with meaningful conversations and shared dreams, making their wedding a much-anticipated celebration."
+            "groomSideStory": "Vikram and Ananya met during their time at college in Chennai. Their shared passion for art and culture brought them together, and their love story blossomed into a beautiful relationship that leads to this union.",
+            "brideSideStory": "Ananya, with her deep-rooted love for tradition and family, found her perfect partner in Vikram. Their journey together has been filled with meaningful conversations and shared dreams, making their wedding a much-anticipated celebration."
         }
     },
     {
@@ -486,8 +486,8 @@
             }
         ],
         "about_host": {
-            "groom_story": "Rohan and Kavya's journey began in their hometown of Ahmedabad, where they met through mutual friends. Their love for their cultural roots and traditions brought them together, leading to a bond that has grown stronger over time.",
-            "bride_story": "Kavya, with her love for Gujarati traditions and culture, found her perfect match in Rohan. Their relationship is built on mutual respect and shared values, making their wedding a celebration of love and tradition."
+            "groomSideStory": "Rohan and Kavya's journey began in their hometown of Ahmedabad, where they met through mutual friends. Their love for their cultural roots and traditions brought them together, leading to a bond that has grown stronger over time.",
+            "brideSideStory": "Kavya, with her love for Gujarati traditions and culture, found her perfect match in Rohan. Their relationship is built on mutual respect and shared values, making their wedding a celebration of love and tradition."
         }
     },
     {
@@ -584,8 +584,8 @@
             }
         ],
         "about_host": {
-            "groom_story": "Aditya and Sneha's love story began in Hyderabad, where they met through mutual friends. Their connection was immediate, and their shared values and interests brought them closer. They are excited to start this new chapter together.",
-            "bride_story": "Sneha, with her love for Telugu culture and tradition, found her perfect partner in Aditya. Their relationship is built on trust and mutual respect, making their wedding a celebration of love and tradition."
+            "groomSideStory": "Aditya and Sneha's love story began in Hyderabad, where they met through mutual friends. Their connection was immediate, and their shared values and interests brought them closer. They are excited to start this new chapter together.",
+            "brideSideStory": "Sneha, with her love for Telugu culture and tradition, found her perfect partner in Aditya. Their relationship is built on trust and mutual respect, making their wedding a celebration of love and tradition."
         }
     },
     {
@@ -682,8 +682,8 @@
             }
         ],
         "about_host": {
-            "groom_story": "Amit and Pooja met during a family event in Jaipur. Their love for Rajasthani culture and tradition brought them closer, leading to a beautiful bond that culminates in their wedding.",
-            "bride_story": "Pooja, with her vibrant personality and deep-rooted love for Rajasthani traditions, found her perfect match in Amit. Their relationship is built on mutual respect and shared values, making their wedding a celebration of love and tradition."
+            "groomSideStory": "Amit and Pooja met during a family event in Jaipur. Their love for Rajasthani culture and tradition brought them closer, leading to a beautiful bond that culminates in their wedding.",
+            "brideSideStory": "Pooja, with her vibrant personality and deep-rooted love for Rajasthani traditions, found her perfect match in Amit. Their relationship is built on mutual respect and shared values, making their wedding a celebration of love and tradition."
         }
     },
     {
@@ -761,8 +761,8 @@
             }
         ],
         "about_host": {
-            "groom_story": "Sameer and Sara met through family ties in Lucknow. Their love for the city's rich cultural heritage and traditions brought them closer, leading to their union.",
-            "bride_story": "Sara, with her deep respect for Islamic traditions and values, found her perfect partner in Sameer. Their relationship is built on trust and mutual respect, making their wedding a celebration of love and tradition."
+            "groomSideStory": "Sameer and Sara met through family ties in Lucknow. Their love for the city's rich cultural heritage and traditions brought them closer, leading to their union.",
+            "brideSideStory": "Sara, with her deep respect for Islamic traditions and values, found her perfect partner in Sameer. Their relationship is built on trust and mutual respect, making their wedding a celebration of love and tradition."
         }
     }
 ]

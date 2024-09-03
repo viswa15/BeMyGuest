@@ -58,8 +58,8 @@ const HostWeddingModel = ({ opened, setOpened }) => {
     bride_number: "",
     image: null,
     about_host: {
-      groom_story: "",
-      bride_story: "",
+      groomSideStory: "",
+      brideSideStory: "",
     },
     days_of_event: 1,
     alcohol_offering: false,
@@ -93,8 +93,8 @@ const HostWeddingModel = ({ opened, setOpened }) => {
       bride_number: "",
       image: null,
       about_host: {
-        groom_story: "",
-        bride_story: "",
+        groomSideStory: "",
+        brideSideStory: "",
       },
       days_of_event: 1,
       alcohol_offering: false,
