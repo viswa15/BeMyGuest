@@ -1,6 +1,5 @@
 [
     {
-        "id": "1",
         "groom_name": "Viswa Teja",
         "bride_name": "Chutki",
         "weddingCity": "Bangalore",
@@ -99,7 +98,6 @@
         }
     },
     {
-        "id": "2",
         "groom_name": "Rajesh Sharma",
         "bride_name": "Neha Verma",
         "weddingCity": "Mumbai",
@@ -197,7 +195,6 @@
         }
     },
     {
-        "id": "3",
         "groom_name": "Arjun Singh",
         "bride_name": "Priya Patel",
         "weddingCity": "New Delhi",
@@ -295,7 +292,6 @@
         }
     },
     {
-        "id": "4",
         "groom_name": "Vikram Rao",
         "bride_name": "Ananya Iyer",
         "weddingCity": "Chennai",
@@ -393,7 +389,6 @@
         }
     },
     {
-        "id": "5",
         "groom_name": "Rohan Mehta",
         "bride_name": "Kavya Desai",
         "weddingCity": "Ahmedabad",
@@ -491,7 +486,6 @@
         }
     },
     {
-        "id": "6",
         "groom_name": "Aditya Kumar",
         "bride_name": "Sneha Reddy",
         "weddingCity": "Hyderabad",
@@ -589,7 +583,6 @@
         }
     },
     {
-        "id": "7",
         "groom_name": "Amit Bansal",
         "bride_name": "Pooja Arora",
         "weddingCity": "Jaipur",
@@ -687,7 +680,6 @@
         }
     },
     {
-        "id": "8",
         "groom_name": "Sameer Khan",
         "bride_name": "Sara Ali",
         "weddingCity": "Lucknow",
@@ -764,5 +756,75 @@
             "groomSideStory": "Sameer and Sara met through family ties in Lucknow. Their love for the city's rich cultural heritage and traditions brought them closer, leading to their union.",
             "brideSideStory": "Sara, with her deep respect for Islamic traditions and values, found her perfect partner in Sameer. Their relationship is built on trust and mutual respect, making their wedding a celebration of love and tradition."
         }
-    }
+    },
+    {
+        "_id": {
+          "$oid": "66d68c40c10dc9e92bb9c95e"
+        },
+        "relation_with_couple": "Groom",
+        "weddingCity": "Guntur",
+        "weddingCountry": "India",
+        "weddingPinCode": "522235",
+        "weddingState": "Andhra Pradesh",
+        "groom_firstname": "Viswa",
+        "groom_surname": "Tummala",
+        "groom_email": "viswatejatummala@gmail.com",
+        "groom_number": "7842841226",
+        "bride_firstname": "Anushka",
+        "bride_surname": "Patel",
+        "bride_email": "Anushka@gmail.com",
+        "bride_number": "7865432190",
+        "image": "https://res.cloudinary.com/dgl0v7vwf/image/upload/v1724929288/1513058323-566_ihyr5a.jpg",
+        "about_host": {
+          "groomSideStory": "Met through shampoo commercial",
+          "brideSideStory": "Met through shampoo commercial"
+        },
+        "days_of_event": 1,
+        "events": [
+          {
+            "event": "Haldi",
+            "date": "2024-09-27",
+            "location": {
+              "area": "Pedanandipadu",
+              "city": "Guntur",
+              "postal_code": "522235",
+              "country": "India"
+            },
+            "details": {
+              "starting_time": "6:22pm",
+              "venue_contact": "Ganesh",
+              "event_description": "Full of fun",
+              "dress_code": "Traditional"
+            },
+            "other_details": {
+              "accommodation": false,
+              "transportation": false,
+              "music_dancing": false,
+              "alcohol_offering": false
+            }
+          }
+        ],
+        "main_language": [
+          "Telugu",
+          "English"
+        ],
+        "diet": [
+          "Vegetarian",
+          "Vegan"
+        ],
+        "ceremony_guide_first_name": "Ganesh",
+        "ceremony_guide_last_name": "Sudhanagunta",
+        "ceremony_guide_number": "9876543210",
+        "ceremony_guide_email": "ganesh@gmail.com",
+        "ceremony_guide_relation_with_couple": "Friend",
+        "ceremony_guide_spoken_language": "Telugu, Marathi",
+        "paypal_email": "ganesh@gmail.com",
+        "createdAt": {
+          "$date": "2024-09-03T04:10:40.088Z"
+        },
+        "updatedAt": {
+          "$date": "2024-09-03T04:10:40.088Z"
+        },
+        "__v": 0
+      }
 ]
