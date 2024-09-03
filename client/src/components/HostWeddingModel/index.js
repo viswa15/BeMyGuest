@@ -120,7 +120,15 @@ const HostWeddingModel = ({ opened, setOpened }) => {
     try{
       //api to push data to datbase
       console.log(weddingDetails)
-      const {data} = await axios.post(`https://bemyguest-backend.onrender.com/weddings/add-wedding`,weddingDetails)
+      const response = await fetch(`https://bemyguest-backend.onrender.com/weddings/add-wedding`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(weddingDetails),
+      });
+      const data = await response.json();
+        // const {data} = await axios.post(`https://bemyguest-backend.onrender.com/weddings/add-wedding`,weddingDetails)
       if(data.success){
         console.log(weddingDetails);
         setOpened(false);

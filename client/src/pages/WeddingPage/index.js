@@ -152,14 +152,14 @@ const WeddingPage = () => {
           />
           <div className="wedding-page-names-container">
             {/* <p> Are you intrested to join </p> */}
-            <h1 className="page-heading">{weddingData.groom_name}</h1>
+            <h1 className="page-heading">{weddingData.groom_firstname}</h1>
             <h3 className="page-sub-heading" style={{ margin: "0px" }}>
               weds
             </h3>
-            <h1 className="page-heading">{weddingData.bride_name}</h1>
+            <h1 className="page-heading">{weddingData.bride_firstname}</h1>
             <div style={{ marginTop: "30px" }}>
               <p className="wedding-page-para">
-                {weddingData.groom_name} & {weddingData.bride_name} extend's a
+                {weddingData.groom_firstname} & {weddingData.bride_firstname} extend's a
                 heartfelt invitation to join them on their wedding day, amidst
                 your travels in India.
               </p>
@@ -200,7 +200,7 @@ const WeddingPage = () => {
                     {" "}
                     Groom
                   </span>{" "}
-                  : {weddingData.about_host.groom_story}
+                  : {weddingData.about_host.groomSideStory}
                 </p>
                 <p style={{ color: "#beb0a7" }}>
                   <span
@@ -209,7 +209,7 @@ const WeddingPage = () => {
                     {" "}
                     Bride
                   </span>{" "}
-                  : {weddingData.about_host.bride_story}
+                  : {weddingData.about_host.brideSideStory}
                 </p>
               </div>
               <div className="daily-itinerary">
