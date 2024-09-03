@@ -1,0 +1,123 @@
+[
+    {
+        "id" : "1",
+        "wedding_name": "Bahaghara (Odia Hindu wedding)",
+        "origin_state": "Odisha",
+        "short_note": "Bahaghara (Odia: ଓଡ଼ିଆ ବାହାଘର, also called as Odia Hindu wedding) is a wedding ceremony performed by Odia Hindu people in the Indian state of Odisha. There are subtle differences in the rites observed by different castes.",
+        "wikipedia_link": "https://www.weddingwire.in/wedding-tips/odia-marriage--c10461",
+        "image_link": "https://res.cloudinary.com/dlxjzmiig/image/upload/v1724318442/87695-odia-marriage-shutterbug-film-company-oriya-wedding_smi3an.jpg"
+    },
+    {
+        "id" : "2",
+        "wedding_name": "Bengali Hindu wedding",
+        "origin_state": "West Bengal",
+        "short_note": "Bengali Hindu wedding ceremonies are known for their rich cultural heritage, including rituals like Saat Paak and Shubho Drishti.",
+        "wikipedia_link": "https://www.weddingwire.in/wedding-tips/bengali-wedding--c2477",
+        "image_link": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724329128/pexels-minhaz-box-55594885-11810851_ar4urn.jpg"
+    },
+    {
+        "id" : "3",
+        "wedding_name": "Anand karaj",
+        "origin_state": "Punjab",
+        "short_note": "Punjabi Sikh weddings are marked by vibrant traditions like the Anand Karaj, which involves reciting hymns from the Guru Granth Sahib.",
+        "wikipedia_link": "https://www.weddingwire.in/wedding-tips/punjabi-wedding--c1038",
+        "image_link": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724329581/sikh_wedding_jnzfac.jpg"
+    },
+    {
+        "id" : "4",
+        "wedding_name": "Tamil Hindu wedding",
+        "origin_state": "Tamil Nadu",
+        "short_note": "Tamil Hindu weddings include significant rituals like Kanyadaanam and Saptapadi, and are often conducted in a temple setting.",
+        "wikipedia_link": "https://www.weddingsutra.com/planning/wedding-tradition-series-explore-the-myriad-rituals-aspects-of-tamil-weddings/",
+        "image_link": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724329828/tamil_hindu_rcqnsk.jpg"
+    },
+    {
+        "id" : "5",
+        "wedding_name": "Gujarati Hindu wedding",
+        "origin_state": "Gujarat",
+        "short_note": "Gujarati Hindu weddings are known for vibrant customs like the Garba and Dandia Raas, and traditional rituals such as Hasta Milap.",
+        "wikipedia_link": "https://getethnic.com/blogs/gujarati-wedding/",
+        "image_link": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724330201/Krina_Rikesh_Gujarati_Hindu_Wedding_Photography_m0clue.jpg"
+    },
+    {
+        "id" : "6",
+        "wedding_name": "Malayali Hindu wedding",
+        "origin_state": "Kerala",
+        "short_note": "Malayali Hindu weddings, also known as Kalyanam, are simple and elegant with rituals such as Thalikettu and Saptapadi.",
+        "wikipedia_link": "https://www.weddingwire.in/wedding-tips/kerala-wedding-ceremonies--c1247",
+        "image_link": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724330580/kerala_hindu_i7owzd.jpg"
+    },
+    {
+        "id" : "7",
+        "wedding_name": "Kannada Hindu wedding",
+        "origin_state": "Karnataka",
+        "short_note": "Kannada Hindu weddings are known for their simplicity and include important rituals such as Dhare Herdu and Edur Kansani.",
+        "wikipedia_link": "https://www.culturalindia.net/weddings/regional-weddings/kannada-wedding.html",
+        "image_link": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724330758/kannada_wedding_ci6css.jpg"
+    },
+    {
+        "id" : "8",
+        "wedding_name": "Marathi Hindu wedding",
+        "origin_state": "Maharashtra",
+        "short_note": "Marathi Hindu weddings include rituals like Seemant Puja and Saptapadi, reflecting the cultural richness of Maharashtra.",
+        "wikipedia_link": "https://www.weddingwire.in/wedding-tips/maharashtrian-wedding--c754",
+        "image_link": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724331157/marathi_wedding_r5ry6s.jpg"
+    },
+    {
+        "id" : "9",
+        "wedding_name": "Kashmiri Hindu wedding",
+        "origin_state": "Jammu and Kashmir",
+        "short_note": "Kashmiri Hindu weddings include unique rituals like Devgon and Kasamdry, reflecting the distinct culture of the region.",
+        "wikipedia_link": "https://namratawakhloo.medium.com/kaeshur-khandar-a-kashmiri-pandit-wedding-36fb99e35c0d",
+        "image_link": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724332251/kashmiri_wed1_f3qzft.jpg"
+    },
+    {
+        "id" : "10",
+        "wedding_name": "Assamese Hindu wedding",
+        "origin_state": "Assam",
+        "short_note": "Assamese Hindu weddings, known as Biya, involve rituals like Jurun and Pani Tula, deeply rooted in Assamese culture.",
+        "wikipedia_link": "https://www.weddingwire.in/wedding-tips/assamese-wedding--c1066",
+        "image_link": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724332917/assamese_iwdce4.jpg"
+    },
+    {
+        "id" : "11",
+        "wedding_name": "Rajasthani Hindu wedding",
+        "origin_state": "Rajasthan",
+        "short_note": "Rajasthani Hindu weddings are known for their grandeur, featuring rituals like Pithi Dastoor and Baarat.",
+        "wikipedia_link": "https://www.weddingwire.in/wedding-tips/rajasthani-wedding-traditions--c810",
+        "image_link": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724336222/Rajastani_mfc6ip.jpg"
+    },
+    {
+        "id" : "12",
+        "wedding_name": "Bihari Hindu wedding",
+        "origin_state": "Bihar",
+        "short_note": "Bihari Hindu weddings are characterized by traditional rituals such as Satyanarayan Katha and Chaththi.",
+        "wikipedia_link": "https://www.weddingwire.in/wedding-tips/bihari-wedding--c2615",
+        "image_link": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724335017/Bihari_wedding_Jaimala_ceremony_c70r9k.jpg"
+    },
+    {
+        "id" : "13",
+        "wedding_name": "Telugu Hindu wedding",
+        "origin_state": "Andhra Pradesh",
+        "short_note": "Telugu Hindu weddings are elaborate, involving rituals like Pelli Kuthuru and Kanyadaanam, reflecting the cultural heritage of Andhra Pradesh.",
+        "wikipedia_link": "https://www.weddingbazaar.com/blog/telugu-wedding-rituals",
+        "image_link": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724334272/telugu_wedding_jmnmeo.jpg"
+    },
+    
+    {
+        "id" : "14",
+        "wedding_name": "Manipuri Hindu wedding",
+        "origin_state": "Manipur",
+        "short_note": "Manipuri Hindu weddings are known for their simplicity and rituals like Luhongba, reflecting the cultural diversity of Manipur.",
+        "wikipedia_link": "https://www.weddingwire.in/wedding-tips/manipuri-wedding--c10497",
+        "image_link": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724334663/manipuri-wedding-rituals_etzm8x.jpg"
+    },
+    {
+        "id" : "15",
+        "wedding_name": "Malay Muslim wedding",
+        "origin_state": "Kerala",
+        "short_note": "Malay Muslim weddings are known for their distinct rituals like Nikah and Walima, deeply rooted in Islamic traditions.",
+        "wikipedia_link": "https://www.weddingwire.in/wedding-tips/kerala-muslim-wedding--c1319",
+        "image_link": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724335306/muslim_wedding_tpbxjq.jpg"
+    }
+]

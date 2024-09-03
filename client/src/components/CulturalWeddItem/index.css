@@ -1,0 +1,81 @@
+.cultures-images-div {
+  width: 450px;
+  height: 300px;
+  z-index: 999;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.random {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+}
+
+.cwi-background {
+  width: 100%;
+  height: 100%;
+  background-color: #192331a6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cwi-para-two {
+  font-size: 15px;
+  color: var(--secondary-text);
+}
+
+.cwi-heading {
+  color: var(--secondary-text);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0px;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.cwi-para {
+  font-family: "Farsan";
+  color: var(--primary-text);
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .cultures-images-div {
+    width: 250px;
+    height: 200px;
+    z-index: 999;
+    overflow: hidden;
+  }
+
+  .random {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+  }
+
+  .cwi-heading {
+    font-size: 18px;
+    color: var(--secondary-text);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin: 0px;
+    font-weight: 500;
+  }
+
+  .cwi-para {
+    font-family: "Farsan";
+    color: var(--primary-text);
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
+  .cwi-para-two {
+    font-size: 13px;
+  }
+}

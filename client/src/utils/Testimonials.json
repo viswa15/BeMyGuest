@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Kevin Peterson",
+        "message": "Attended a Tamil wedding through this website. The booking was easy, and the experience was incredible! Vibrant rituals, beautiful attire, and amazing food. Highly recommended! 🌟",
+        "image": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724417993/kevin_peterson_pyzuo7.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Ananya Sharma",
+        "message": "Hosting guests from around the world was a joy. The process was smooth, and the platform ensured that everything was hassle-free. The guests were respectful and genuinely interested in our traditions. A wonderful experience overall!",
+        "image": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724417982/annanya_sharma_adh3nr.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Emily Watson",
+        "message": "I attended a Punjabi wedding through BeMyGuest, and it was a once-in-a-lifetime experience! The energy, the music, and the food were all spectacular. I felt so welcomed by the family. Would love to do this again!",
+        "image": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724417895/Emily_watson_njo7hm.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Ravi Patel",
+        "message": "Hosting international guests was a unique experience. The website made it easy to manage everything, and the guests were genuinely interested in learning about our customs. Highly satisfied with the service!",
+        "image": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724417909/ravi_patel_zxfb55.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Sophia Lee",
+        "message": "Experiencing an Indian wedding was on my bucket list, and BeMyGuest made it possible. The website was easy to navigate, and the hosts were incredibly welcoming. Truly a memorable experience!",
+        "image": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724417927/Sophila_lee_n4fabc.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Rajesh Kumar",
+        "message": "As a host, I was initially hesitant to invite foreigners to our wedding, but BeMyGuest made the process so easy. The guests were respectful and eager to learn about our culture. It added a special touch to our celebration.",
+        "image": "https://res.cloudinary.com/dxnrfh7kb/image/upload/v1724417959/Rajesh_kumar_dgvvpr.jpg"
+    }
+]

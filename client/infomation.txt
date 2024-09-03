@@ -1,0 +1,97 @@
+:root{
+    --light-background: #192331; (dark grey color for background, headings)
+    --secondary-text: #f6eddf; (for text)
+    --primary-text: #e4b6a0;
+    --medium-background: #a55d40; (for background)
+    --accent: #ce8458; (for navbar)
+    --sm: 640px;
+    --md: 768px;
+    --lg: 1024px;
+    --xl: 1280px;
+    --xxl: 1536px;
+    --shadow: #192331 0px 0px 10px; 
+}
+
+
+edited root :root {
+    --dark-bg: #000;
+    --light-bg: #f6f7fb;
+    --primary-text-color: #533fd7;
+    --secondary-color: #00caf9;
+    --third-color: #54f3a6;
+    --fourth-color: #fee590;
+    --text-color: #867eb5;
+    --text-secondary: #554b92;
+    --text-color-dark: #12183f;
+    --text-color-light: #fcf3d4;
+    --title-color: #221577;
+    --border-color: #6a55f8;
+    --border-color-dark: #27263a;
+    --border-color-light: #6a55f8;
+    --color-cursor: 220, 90, 90;
+    --cursor-outline-shade: 0.3;
+    --cursor-size: 16px;
+    --cursor-outline-size: 16px;    
+}
+
+## models -> for schema of database
+## controller -> all API logic methods
+## routes -> router routes to specific API
+## config -> for any configuration like AuthO, Cloudinary, Prisma etc...
+
+for para = 'Londrina Solid', cursive;
+for description = 'Poppins', sans-serif;
+for heading = 'Yanone Kaffeesatz', cursive; (or) 'Satisfy', cursive;
+
+Josefin Sans
+
+
+
+
+      {/* <AnimatedCursor
+          innerSize={8}
+          outerSize={8}
+          color="1, 1, 1"
+          outerAlpha={0.2}
+          innerScale={0.7}
+          outerScale={5}
+          clickables={[
+            "a",
+            'input[type="text"]',
+            'input[type="email"]',
+            'input[type="number"]',
+            'input[type="submit"]',
+            'input[type="image"]',
+            "label[for]",
+            "select",
+            "textarea",
+            "button",
+            ".link",
+            {
+              target: ".custom",
+              options: {
+                innerSize: 12,
+                outerSize: 12,
+                color: "255, 255, 255",
+                outerAlpha: 0.3,
+                innerScale: 0.7,
+                outerScale: 5,
+              },
+            },
+          ]}
+        /> */}
+
+
+    <motion.div
+              style={{
+                scaleX: scrollYProgress,
+                position: "fixed",
+                top: 0,
+                left: 0,
+                right: 0,
+                height: 6,
+                transformOrigin: "0%",
+                background: "#bf7659",
+                zIndex: 2000,
+              }}
+            ></motion.div>

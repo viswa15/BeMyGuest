@@ -1,0 +1,213 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.h-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.h-image-container {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: none;
+  background-image: url("https://res.cloudinary.com/dlxjzmiig/image/upload/v1712407403/photo_cfd4bm.png");
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.h-gradient {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    var(--medium-background),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.h-heading {
+  color: var(--light-background);
+  font-weight: 600;
+  font-family: "Satisfy", cursive;
+  font-size: 8em;
+  align-self: center;
+}
+
+.h-para {
+  margin: 0;
+  color: var(--secondary-text);
+  font-weight: 400;
+  font-family: "Londrina Solid", cursive;
+  font-size: 2em;
+}
+
+.h-description {
+  margin: 0;
+  color: #ecd8bc;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+}
+
+.title-alignment {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-md-devices {
+  display: none;
+}
+
+.button-lg-devices {
+  display: flex;
+}
+
+.cultures-container {
+  background-color: var(--light-background);
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px;
+}
+
+.cultures {
+  color: var(--section-headings);
+}
+
+.tesnomials-mobile-view {
+  display: none;
+}
+
+.compress-container {
+  background-color: var(--light-background);
+  /* background-color: var(--dark-text); */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  padding-top: 100px;
+}
+
+.website-container {
+  background-color: var(--light-background);
+  /* background-color: var(--dark-text); */
+}
+
+.inner-compress-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: var(--medium-background);
+  height: 100%;
+  /* height: 500vh; */
+  margin-top: 0px;
+}
+
+.horizontal-tag {
+  border-color: var(--light-background);
+  width: 80%;
+  margin-top: 50px;
+}
+
+.featured-wedding-mobile-view {
+  background-color: var(--light-background);
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .h-image-container {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .h-heading {
+    font-size: 5em;
+  }
+
+  .h-para {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .h-description {
+    text-align: center;
+    font-size: 0.7em;
+  }
+
+  .container-home {
+    height: 60vh;
+  }
+
+  .container-heading-home {
+    font-size: 40px;
+    align-self: center;
+  }
+
+  .cultures {
+    font-size: 30px;
+  }
+
+  .service-card-button {
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: var(--light-background);
+    background: #f6e6cc;
+  }
+
+  .button-lg-devices {
+    display: none;
+  }
+
+  .button-md-devices {
+    display: block;
+    background: #f6e6cc;
+  }
+
+  .cultures-container {
+    padding: 30px;
+  }
+
+  .compress-container {
+    display: none;
+  }
+
+  .tesnomials-mobile-view {
+    display: flex;
+  }
+
+  .featured-wedding-mobile-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .h-heading {
+    font-size: 3em;
+  }
+
+  .container-home {
+    height: 100vh;
+  }
+
+  .cultures {
+    font-size: 20px;
+  }
+}

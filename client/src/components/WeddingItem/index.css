@@ -1,0 +1,81 @@
+.wi-card {
+  height: 350px;
+  width: 300px;
+  margin: 15px;
+  background-color: var(--light-background);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.wi-container {
+  height: 290px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 5px;
+}
+
+.wi-names {
+  font-size: 35px;
+  color: var(--dark-text);
+  text-shadow: 3px 3px 10px #eee8e8;
+  margin: 0;
+  font-family: 'Handlee';
+  font-weight: 600;
+}
+
+.wi-lower-conatainer p {
+  margin: 0px;
+  font-size: 14px;
+  color: var(--dark-text);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wi-date {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .wi-card {
+    height: 300px;
+    width: 270px;
+  }
+
+  .wi-container {
+    height: 240px;
+    width: 270px;
+  }
+
+  .wi-names {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wi-card {
+    height: 300px;
+    width: 250px;
+  }
+
+  .wi-container {
+    height: 240px;
+    width: 250px;
+  }
+
+  .wi-names {
+    font-size: 22px;
+  }
+}

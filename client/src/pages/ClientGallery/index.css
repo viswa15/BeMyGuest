@@ -1,0 +1,154 @@
+.masonary-container{
+  width: 80%;
+}
+
+.cg-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.gallery-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1200px;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+.gallery-item {
+  position: absolute;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom styles for each image to create a collage */
+.img-1 {
+  width: 300px;
+  height: 200px;
+  top: 20px;
+  left: 50px;
+  transform: rotate(-5deg);
+}
+
+.img-2 {
+  width: 250px;
+  height: 300px;
+  top: 40px;
+  left: 340px;
+  transform: rotate(10deg);
+}
+
+.img-3 {
+  width: 200px;
+  height: 150px;
+  top: 220px;
+  left: 100px;
+  transform: rotate(-20deg);
+}
+
+.img-4 {
+  width: 250px;
+  height: 250px;
+  top: 230px;
+  left: 400px;
+  transform: rotate(-15deg);
+}
+
+.img-5 {
+  width: 300px;
+  height: 300px;
+  top: 380px;
+  left: 40px;
+  transform: rotate(7deg);
+}
+
+.img-6 {
+  width: 200px;
+  height: 200px;
+  top: 470px;
+  left: 350px;
+  transform: rotate(-5deg);
+}
+
+.img-7 {
+  width: 200px;
+  height: 200px;
+  top: 450px;
+  left: 600px;
+  transform: rotate(5deg);
+}
+
+.img-8 {
+  width: 220px;
+  height: 220px;
+  top: 100px;
+  left: 620px;
+  transform: rotate(-5deg);
+}
+
+.img-9 {
+  width: 200px;
+  height: 200px;
+  top: 50px;
+  left: 850px;
+  transform: rotate(5deg);
+}
+
+.img-10 {
+  width: 300px;
+  height: 300px;
+  top: 220px;
+  left: 850px;
+  transform: rotate(-3deg);
+}
+
+.img-11 {
+  width: 250px;
+  height: 250px;
+  top: 450px;
+  left: 800px;
+  transform: rotate(-10deg);
+}
+
+.cg-mb-view {
+  display: flex;
+}
+
+.cg-lg-view {
+  display: none;
+}
+
+@media screen and (max-width: 769px) {
+  .cg-mb-view {
+    display: none;
+  }
+
+  .cg-lg-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cg-image-con {
+    height: 200px;
+    width: 300px;
+  }
+
+  .gallery-container {
+    width: 100%;
+    height: 100%;
+  }
+}

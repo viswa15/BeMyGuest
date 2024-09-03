@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "question": "I can't log in to the site.",
+    "reply": "If you're unable to log in, please check that you're using the correct username and password. If you've forgotten your login details, use the 'Forgot Password' feature to reset them. For persistent issues, contact our support team for further assistance."
+  },
+  {
+    "id": 2,
+    "question": "I got stuck during the wedding registration process.",
+    "reply": "If you encounter issues during registration, ensure you’ve completed all required fields and followed the instructions carefully. Try refreshing the page or using a different browser. If the problem persists, reach out to our support team for help."
+  },
+  {
+    "id": 3,
+    "question": "I'm unable to upload the wedding photo during registration.",
+    "reply": "Make sure the photo meets the required file format and size specified on the registration page. If you're still having trouble, try clearing your browser's cache or using a different browser. For ongoing issues, contact our support team for assistance."
+  }
+]

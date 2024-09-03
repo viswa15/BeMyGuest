@@ -1,0 +1,113 @@
+.os-container {
+  height: 65vh;
+  background-color: var(--medium-background);
+  margin: none;
+}
+
+.os-inner-container {
+  margin: 0;
+}
+
+.service-card-para {
+  font-size: 12px;
+}
+
+.service-card-button {
+  padding: 5px 10px;
+  border-radius: 30px;
+  margin-left: 30px;
+  font-size: 12px;
+  color: var(--light-background);
+  background: #f6e6cc;
+}
+
+/* .service-card-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #3f3335;
+  margin-left: 20px;
+  margin-bottom: 0;
+} */
+
+.service-card-para {
+  font-weight: 500;
+  color: var(--secondary-text);
+  margin-top: 0px;
+  font-family: 'Handlee';
+  font-size: 18px;
+}
+
+.service-card-para::marker {
+  color: #3f3335;
+}
+
+.service-container-ul {
+  margin: none;
+  list-style-type: square;
+}
+
+.service-card-button {
+  font-family: "poppins", sans-serif;
+  padding: 5px 17px;
+  border-radius: 30px;
+  border: 2px solid #403640;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #f6e6cc;
+}
+
+.service-card-button:hover {
+  background-color: #2b292b;
+  color: var(--secondary-text);
+}
+
+.os-container-card-lg{
+  display: flex;
+  padding-top: 14px;
+}
+
+.os-container-card-mb{
+  display: none;
+}
+
+
+@media (max-width: 800px) {
+  .os-container {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--medium-background);
+  }
+
+  .service-card-button {
+    background: #f6e6cc;
+    padding: 3px 10px;
+  }
+
+  .container-home {
+    height: 100vh;
+  }
+
+  .service-card-heading {
+    font-size: 20px;
+  }
+
+  .service-card-para {
+    font-size: 15px;
+  }
+
+  .os-container-card-mb {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .os-container-card-lg{
+    display: none;
+  }
+}

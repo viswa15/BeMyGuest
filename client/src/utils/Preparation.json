@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "Can I talk to the couple before I arrive at the venue?",
+    "reply": "Yes, you can usually communicate with the couple or their representatives through the BeMyGuest platform before the wedding. This allows you to clarify any details or ask any questions you may have about the event."
+  },
+  {
+    "id": 2,
+    "question": "Am I expected to bring a present?",
+    "reply": "Bringing a present is not mandatory, but it is a thoughtful gesture. If you wish to bring a gift, you can check with the couple or the host for any preferences or guidelines they may have."
+  },
+  {
+    "id": 3,
+    "question": "Am I expected to wear traditional Indian attire?",
+    "reply": "Wearing traditional Indian attire is often encouraged to blend in with the cultural setting of the wedding. However, you can check with the host or the BeMyGuest platform for any specific dress code requirements."
+  },
+  {
+    "id": 4,
+    "question": "How does BeMyGuest operate with couples?",
+    "reply": "BeMyGuest works closely with couples to facilitate the invitation process, manage guest lists, and ensure all details are communicated effectively. We help both hosts and guests have a smooth experience from registration to the event itself."
+  },
+  {
+    "id": 5,
+    "question": "How can BeMyGuest help with travel arrangements?",
+    "reply": "While BeMyGuest primarily focuses on managing wedding invitations and guest experiences, we may provide recommendations or resources for travel arrangements. For detailed travel assistance, you might need to arrange through travel agencies or services."
+  }
+]

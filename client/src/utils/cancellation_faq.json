@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "question": "What happens if the wedding is cancelled?",
+    "reply": "If the wedding is cancelled, BeMyGuest will notify all registered guests as soon as possible. In most cases, you will be eligible for a refund based on the platform’s cancellation policy and any specific terms set by the host."
+  },
+  {
+    "id": 2,
+    "question": "What happens if I cannot join the wedding?",
+    "reply": "If you cannot join the wedding, please inform BeMyGuest as soon as possible. Depending on the timing and reason, you may be eligible for a partial refund or credit for a future event, in accordance with our cancellation policy."
+  }
+]

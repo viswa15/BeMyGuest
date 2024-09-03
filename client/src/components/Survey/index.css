@@ -1,0 +1,81 @@
+.survey-container {
+  background-color: var(--primary-text);
+  border: 5px solid var(--secondary-text);
+  border-radius: 15px;
+  margin: 30px 120px;
+  height: 30vh;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.survey-sec-heading {
+  font-family: "Handlee";
+  font-size: 20px;
+  font-weight: 600;
+  color: #3f3335;
+}
+
+.survey-heading {
+  font-family: "Farsans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--dark-text);
+  margin-bottom: 15px;
+}
+
+.survery-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 8px 15px;
+  color: var(--light-background);
+  border: 1px;
+  background-color: var(--dark-text);
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .survey-container {
+    background-color: var(--dark-text);
+    border: 5px solid #3c5476;
+    margin: 10px 30px;
+    height: 30vh;
+  }
+
+  .survey-heading {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primary-text);
+    margin-bottom: 15px;
+  }
+
+  .survey-sec-heading {
+    font-size: 15px;
+    color: var(--secondary-text);
+  }
+
+  .survery-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5px 10px;
+    color: var(--dark-text);
+    border: 1px;
+    background-color: var(--light-background);
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+}

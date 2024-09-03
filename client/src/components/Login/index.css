@@ -1,0 +1,98 @@
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  /* background-color: var(--light-background); */
+  height: 100vh;
+  /* background-image: url("https://res.cloudinary.com/dlxjzmiig/image/upload/v1724733865/depositphotos_106892906-stock-illustration-black-and-white-wedding-invitation-removebg-preview_qntdma.png"); */
+  background-size: cover;
+  background-color: var(--dark-text);
+}
+
+.login-couple-image {
+  position: relative;
+}
+
+.login-inner-container {
+  background-color: var(--medium-background);
+  border: 5px solid var(--primary-text);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 400px;
+  height: 350px;
+}
+
+.form-contaier {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+
+.label-element {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--light-background);
+}
+
+.form-input-container {
+  width: 270px;
+  padding: 5px;
+  outline: none;
+  border: 2px none var(--dark-text);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: var(--primary-text);
+  color: var(--dark-text);
+}
+
+.form-button {
+  align-self: center;
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px 20px;
+  background-color: var(--dark-text);
+  color: var(--light-background);
+}
+
+.error-msg {
+  color: var(--light-background);
+  font-size: 12px;
+  margin: 0px;
+  margin: 5px;
+  align-self: center;
+}
+
+.register-msg {
+  color: var(--light-background);
+  font-size: 12px;
+  margin: 0px;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.span-elem {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* .span-elem:hover{
+  font-size: 15px;
+} */
+
+
+@media screen and (max-width: 768px) {
+  .login-couple-image {
+    display: none;
+  }
+
+  .form-input-container{
+    width: 200px;
+  }
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "question": "What can I purchase on BeMyGuest?",
+        "reply": "On BeMyGuest, you can purchase tickets to attend various Indian weddings, each offering a unique cultural experience. You can also purchase cultural add-ons, such as traditional attire or guided tours related to the wedding."
+    },
+    {
+        "id": 2,
+        "question": "What does the contribution include?",
+        "reply": "Your contribution includes access to the wedding event, food, participation in the rituals, and any pre-arranged activities. It also covers coordination, security, and ensures a smooth experience for both hosts and guests."
+    },
+    {
+        "id": 3,
+        "question": "How does the booking process look like?",
+        "reply": "The booking process is straightforward. Browse available weddings, select the one you wish to attend, choose your add-ons if any, and proceed to payment. Once confirmed, you’ll receive all necessary details, including location, attire, and itinerary."
+    },
+    {
+        "id": 4,
+        "question": "Where does the contribution go?",
+        "reply": "Your contribution is distributed between the host family, platform service fees, and local organizers. This ensures that the event is well-coordinated, the hosts are compensated, and you receive the best experience."
+    }
+]

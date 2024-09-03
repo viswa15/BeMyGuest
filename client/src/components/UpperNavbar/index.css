@@ -1,0 +1,46 @@
+.upper-navbar{
+    width: 100vw;
+    height: 4vh;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper-navbar.active{
+    display: none;
+}
+
+.upper-navbar-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 100%;
+    list-style: none;
+    padding-left: 5px;
+}
+
+.list-upper-navbar{
+    color: aliceblue;
+}
+
+.list-upper-navbar:hover{
+    color: var(--primary-text);
+    cursor: pointer;
+}
+
+.heading-upper{
+    margin: auto;
+    font-size: 10px;
+}
+
+.padding-right{
+    padding-right: 100px;
+}

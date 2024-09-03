@@ -1,0 +1,768 @@
+[
+    {
+        "id": "1",
+        "groom_name": "Viswa Teja",
+        "bride_name": "Chutki",
+        "weddingCity": "Bangalore",
+        "weddingCountry": "India",
+        "weddingPinCode": "530068",
+        "weddingState": "Karnataka",
+        "image": "https://res.cloudinary.com/dlxjzmiig/image/upload/v1724232441/0f8c2795423c5aa714352d6d56f8afd8_xu72pj.jpg",
+        "main_language": [
+            "Telugu",
+            "Kannada",
+            "English"
+        ],
+        "alcohol_offering": "No",
+        "diet": "Vegetarian",
+        "events": [
+            {
+                "event": "Haldi",
+                "date": "2024-08-26",
+                "location": {
+                    "area": "Koramangala",
+                    "city": "Bangalore",
+                    "pincode": "560034"
+                },
+                "details": {
+                    "starting_time": "10:00 AM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Not included",
+                    "transportation": "Not included",
+                    "description": "Join us for the joyous pre-wedding festivities of the Haldi ceremony. The Haldi ceremony will involve adorning us with turmeric paste, symbolizing purification and prosperity, amidst music, laughter, and blessings.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional/Casual",
+                    "summary": "Haldi ceremony to purify and bring good fortune to the couple."
+                }
+            },
+            {
+                "event": "Sangeet",
+                "date": "2024-08-27",
+                "location": {
+                    "area": "Indiranagar",
+                    "city": "Bangalore",
+                    "pincode": "560038"
+                },
+                "details": {
+                    "starting_time": "7:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Not included",
+                    "transportation": "Not included",
+                    "description": "A night of vibrant music and dance to celebrate our love and joy. Join us for a lively evening of performances and entertainment with family and friends.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional",
+                    "summary": "Celebrate the union with music and dance at the Sangeet."
+                }
+            },
+            {
+                "event": "Marriage",
+                "date": "2024-08-29",
+                "location": {
+                    "area": "Whitefield",
+                    "city": "Bangalore",
+                    "pincode": "560066"
+                },
+                "details": {
+                    "starting_time": "8:00 AM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Not included",
+                    "transportation": "Not included",
+                    "description": "Our wedding day will feature traditional ceremonies, including the groom's arrival, the bride's entrance, garland exchange, and sacred rituals around the holy fire. We look forward to celebrating this special moment with our loved ones.",
+                    "music_dancing": "Yes",
+                    "dress_code": "W - Paijama; Dupatta - M - Dothi; Paijama",
+                    "summary": "The sacred marriage ceremony with traditional rituals."
+                }
+            },
+            {
+                "event": "Reception",
+                "date": "2024-08-30",
+                "location": {
+                    "area": "MG Road",
+                    "city": "Bangalore",
+                    "pincode": "560001"
+                },
+                "details": {
+                    "starting_time": "5:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Not included",
+                    "transportation": "Not included",
+                    "description": "Celebrate with us at our grand reception. The evening will include heartfelt speeches, music, and dancing as we toast to our future together and enjoy a lavish feast.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional/Casual",
+                    "summary": "Join us for the grand reception to toast to our future together."
+                }
+            }
+        ],
+        "about_host": {
+            "groom_story": "Viswa Teja and Chutki first met during a mutual friend's gathering in Bangalore. Their shared interests in music and travel quickly formed a bond. As they spent more time together, their friendship deepened into love. A memorable proposal on a serene evening in Bangalore made it clear that they were meant to be together.",
+            "bride_story": "Chutki, known for her warm personality and love for cultural traditions, found in Viswa Teja a perfect partner who shares her values and dreams. Their journey together has been filled with joy, laughter, and mutual respect, leading to this beautiful celebration of their union."
+        }
+    },
+    {
+        "id": "2",
+        "groom_name": "Rajesh Sharma",
+        "bride_name": "Neha Verma",
+        "weddingCity": "Mumbai",
+        "weddingCountry": "India",
+        "weddingPinCode": "400001",
+        "weddingState": "Maharashtra",
+        "image": "https://res.cloudinary.com/dlxjzmiig/image/upload/v1724232441/0f8c2795423c5aa714352d6d56f8afd8_xu72pj.jpg",
+        "main_language": [
+            "Hindi",
+            "Marathi"
+        ],
+        "alcohol_offering": "Yes",
+        "diet": "Both",
+        "events": [
+            {
+                "event": "Engagement",
+                "date": "2024-09-01",
+                "location": {
+                    "area": "Juhu",
+                    "city": "Mumbai",
+                    "pincode": "400049"
+                },
+                "details": {
+                    "starting_time": "6:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Celebrate the formal engagement of Rajesh and Neha with a ring exchange ceremony, followed by dinner and music.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Formal",
+                    "summary": "Engagement ceremony with ring exchange and dinner."
+                }
+            },
+            {
+                "event": "Mehndi",
+                "date": "2024-09-02",
+                "location": {
+                    "area": "Andheri",
+                    "city": "Mumbai",
+                    "pincode": "400053"
+                },
+                "details": {
+                    "starting_time": "11:00 AM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Not included",
+                    "transportation": "Not included",
+                    "description": "Join us for the Mehndi ceremony where the bride's hands will be adorned with intricate henna designs, symbolizing love and joy.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional",
+                    "summary": "Mehndi ceremony with henna application and traditional music."
+                }
+            },
+            {
+                "event": "Wedding",
+                "date": "2024-09-04",
+                "location": {
+                    "area": "Colaba",
+                    "city": "Mumbai",
+                    "pincode": "400005"
+                },
+                "details": {
+                    "starting_time": "9:00 AM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Join us for the sacred wedding ceremony featuring traditional rituals, vows, and a grand celebration with family and friends.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional",
+                    "summary": "Traditional wedding ceremony with sacred vows and celebration."
+                }
+            },
+            {
+                "event": "Reception",
+                "date": "2024-09-05",
+                "location": {
+                    "area": "Marine Drive",
+                    "city": "Mumbai",
+                    "pincode": "400002"
+                },
+                "details": {
+                    "starting_time": "7:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Celebrate the newlyweds at a grand reception featuring a lavish dinner, music, and dancing by the sea.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Formal",
+                    "summary": "Grand reception by the sea with dinner and dancing."
+                }
+            }
+        ],
+        "about_host": {
+            "groom_story": "Rajesh and Neha met at a friend's wedding in Mumbai. Their connection was immediate, and they soon discovered their shared love for travel and food. After several adventures together, Rajesh proposed to Neha during a sunset at Marine Drive.",
+            "bride_story": "Neha, with her vibrant personality and passion for life, found her perfect partner in Rajesh. Their love story is filled with beautiful moments and endless laughter, leading to this exciting journey of marriage."
+        }
+    },
+    {
+        "id": "3",
+        "groom_name": "Arjun Singh",
+        "bride_name": "Priya Patel",
+        "weddingCity": "New Delhi",
+        "weddingCountry": "India",
+        "weddingPinCode": "110001",
+        "weddingState": "Delhi",
+        "image": "https://res.cloudinary.com/dlxjzmiig/image/upload/v1724232441/0f8c2795423c5aa714352d6d56f8afd8_xu72pj.jpg",
+        "main_language": [
+            "Hindi",
+            "Punjabi"
+        ],
+        "alcohol_offering": "No",
+        "diet": "Vegetarian",
+        "events": [
+            {
+                "event": "Roka",
+                "date": "2024-10-05",
+                "location": {
+                    "area": "Connaught Place",
+                    "city": "New Delhi",
+                    "pincode": "110001"
+                },
+                "details": {
+                    "starting_time": "5:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Not included",
+                    "transportation": "Not included",
+                    "description": "The Roka ceremony marks the formal union of the families and the couple's commitment to each other. Join us for this special occasion.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional",
+                    "summary": "Roka ceremony to mark the formal union of the families."
+                }
+            },
+            {
+                "event": "Chunni Ceremony",
+                "date": "2024-10-06",
+                "location": {
+                    "area": "Karol Bagh",
+                    "city": "New Delhi",
+                    "pincode": "110005"
+                },
+                "details": {
+                    "starting_time": "12:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Not included",
+                    "description": "The Chunni ceremony is an important pre-wedding ritual where the groom's family gifts a red chunni (scarf) to the bride, symbolizing her acceptance into their family.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional",
+                    "summary": "Chunni ceremony symbolizing the bride's acceptance into the groom's family."
+                }
+            },
+            {
+                "event": "Wedding",
+                "date": "2024-10-08",
+                "location": {
+                    "area": "Chandni Chowk",
+                    "city": "New Delhi",
+                    "pincode": "110006"
+                },
+                "details": {
+                    "starting_time": "8:00 AM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Join us for a traditional Sikh wedding ceremony at the Gurdwara, followed by a festive lunch.",
+                    "music_dancing": "No",
+                    "dress_code": "Traditional Sikh Attire",
+                    "summary": "Traditional Sikh wedding ceremony at the Gurdwara."
+                }
+            },
+            {
+                "event": "Reception",
+                "date": "2024-10-09",
+                "location": {
+                    "area": "Greater Kailash",
+                    "city": "New Delhi",
+                    "pincode": "110048"
+                },
+                "details": {
+                    "starting_time": "6:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Celebrate the newlyweds at a grand reception with family and friends, featuring dinner and a live band.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Formal",
+                    "summary": "Grand reception with dinner and live band performance."
+                }
+            }
+        ],
+        "about_host": {
+            "groom_story": "Arjun and Priya first met during a family function in New Delhi. Their shared cultural values and strong family ties brought them closer, leading to a beautiful bond that culminates in their wedding.",
+            "bride_story": "Priya's gentle nature and love for tradition made her the perfect match for Arjun. Their relationship blossomed through mutual respect and love, and they are excited to begin this new chapter together."
+        }
+    },
+    {
+        "id": "4",
+        "groom_name": "Vikram Rao",
+        "bride_name": "Ananya Iyer",
+        "weddingCity": "Chennai",
+        "weddingCountry": "India",
+        "weddingPinCode": "600001",
+        "weddingState": "Tamil Nadu",
+        "image": "https://res.cloudinary.com/dlxjzmiig/image/upload/v1724232441/0f8c2795423c5aa714352d6d56f8afd8_xu72pj.jpg",
+        "main_language": [
+            "Tamil",
+            "English"
+        ],
+        "alcohol_offering": "No",
+        "diet": "Vegetarian",
+        "events": [
+            {
+                "event": "Nischayathartham",
+                "date": "2024-11-10",
+                "location": {
+                    "area": "Mylapore",
+                    "city": "Chennai",
+                    "pincode": "600004"
+                },
+                "details": {
+                    "starting_time": "9:00 AM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Not included",
+                    "transportation": "Not included",
+                    "description": "The Nischayathartham is a traditional engagement ceremony where the couple exchanges rings and the families bless the union.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional",
+                    "summary": "Traditional engagement ceremony with ring exchange."
+                }
+            },
+            {
+                "event": "Nalangu",
+                "date": "2024-11-11",
+                "location": {
+                    "area": "T. Nagar",
+                    "city": "Chennai",
+                    "pincode": "600017"
+                },
+                "details": {
+                    "starting_time": "4:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Join us for the Nalangu ceremony, a fun-filled pre-wedding ritual involving playful activities and songs to bless the couple.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional",
+                    "summary": "Pre-wedding Nalangu ceremony with playful rituals and songs."
+                }
+            },
+            {
+                "event": "Wedding",
+                "date": "2024-11-12",
+                "location": {
+                    "area": "Adyar",
+                    "city": "Chennai",
+                    "pincode": "600020"
+                },
+                "details": {
+                    "starting_time": "7:00 AM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Witness the traditional South Indian wedding ceremony with sacred rituals, including the exchange of garlands and vows.",
+                    "music_dancing": "No",
+                    "dress_code": "Traditional South Indian Attire",
+                    "summary": "Traditional South Indian wedding with sacred rituals."
+                }
+            },
+            {
+                "event": "Reception",
+                "date": "2024-11-13",
+                "location": {
+                    "area": "Besant Nagar",
+                    "city": "Chennai",
+                    "pincode": "600090"
+                },
+                "details": {
+                    "starting_time": "7:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Join us for a grand reception by the beach, celebrating the newlyweds with a sumptuous feast and classical music.",
+                    "music_dancing": "No",
+                    "dress_code": "Formal/Traditional",
+                    "summary": "Grand beachside reception with feast and classical music."
+                }
+            }
+        ],
+        "about_host": {
+            "groom_story": "Vikram and Ananya met during their time at college in Chennai. Their shared passion for art and culture brought them together, and their love story blossomed into a beautiful relationship that leads to this union.",
+            "bride_story": "Ananya, with her deep-rooted love for tradition and family, found her perfect partner in Vikram. Their journey together has been filled with meaningful conversations and shared dreams, making their wedding a much-anticipated celebration."
+        }
+    },
+    {
+        "id": "5",
+        "groom_name": "Rohan Mehta",
+        "bride_name": "Kavya Desai",
+        "weddingCity": "Ahmedabad",
+        "weddingCountry": "India",
+        "weddingPinCode": "380001",
+        "weddingState": "Gujarat",
+        "image": "https://res.cloudinary.com/dlxjzmiig/image/upload/v1724232441/0f8c2795423c5aa714352d6d56f8afd8_xu72pj.jpg",
+        "main_language": [
+            "Gujarati",
+            "Hindi"
+        ],
+        "alcohol_offering": "No",
+        "diet": "Vegetarian",
+        "events": [
+            {
+                "event": "Garba Night",
+                "date": "2024-12-01",
+                "location": {
+                    "area": "Navrangpura",
+                    "city": "Ahmedabad",
+                    "pincode": "380009"
+                },
+                "details": {
+                    "starting_time": "8:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Join us for a lively Garba night to celebrate the upcoming wedding, filled with traditional dance, music, and vibrant attire.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional",
+                    "summary": "Garba night with traditional dance and music."
+                }
+            },
+            {
+                "event": "Pithi Ceremony",
+                "date": "2024-12-02",
+                "location": {
+                    "area": "Vastrapur",
+                    "city": "Ahmedabad",
+                    "pincode": "380015"
+                },
+                "details": {
+                    "starting_time": "10:00 AM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Not included",
+                    "transportation": "Not included",
+                    "description": "Join us for the Pithi ceremony, a pre-wedding ritual where the bride and groom are smeared with turmeric paste for good fortune.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional",
+                    "summary": "Pithi ceremony with turmeric application for good fortune."
+                }
+            },
+            {
+                "event": "Wedding",
+                "date": "2024-12-04",
+                "location": {
+                    "area": "Shahibaug",
+                    "city": "Ahmedabad",
+                    "pincode": "380004"
+                },
+                "details": {
+                    "starting_time": "6:00 AM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Experience the grandeur of a traditional Gujarati wedding, complete with sacred rituals, garland exchange, and blessings.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional Gujarati Attire",
+                    "summary": "Traditional Gujarati wedding with sacred rituals."
+                }
+            },
+            {
+                "event": "Reception",
+                "date": "2024-12-05",
+                "location": {
+                    "area": "C.G. Road",
+                    "city": "Ahmedabad",
+                    "pincode": "380006"
+                },
+                "details": {
+                    "starting_time": "7:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Celebrate the newlyweds at a grand reception with traditional Gujarati cuisine, music, and dance.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Formal",
+                    "summary": "Reception with traditional cuisine and dance."
+                }
+            }
+        ],
+        "about_host": {
+            "groom_story": "Rohan and Kavya's journey began in their hometown of Ahmedabad, where they met through mutual friends. Their love for their cultural roots and traditions brought them together, leading to a bond that has grown stronger over time.",
+            "bride_story": "Kavya, with her love for Gujarati traditions and culture, found her perfect match in Rohan. Their relationship is built on mutual respect and shared values, making their wedding a celebration of love and tradition."
+        }
+    },
+    {
+        "id": "6",
+        "groom_name": "Aditya Kumar",
+        "bride_name": "Sneha Reddy",
+        "weddingCity": "Hyderabad",
+        "weddingCountry": "India",
+        "weddingPinCode": "500001",
+        "weddingState": "Telangana",
+        "image": "https://res.cloudinary.com/dlxjzmiig/image/upload/v1724232441/0f8c2795423c5aa714352d6d56f8afd8_xu72pj.jpg",
+        "main_language": [
+            "Telugu",
+            "English"
+        ],
+        "alcohol_offering": "Yes",
+        "diet": "Both",
+        "events": [
+            {
+                "event": "Sangeet",
+                "date": "2024-08-20",
+                "location": {
+                    "area": "Banjara Hills",
+                    "city": "Hyderabad",
+                    "pincode": "500034"
+                },
+                "details": {
+                    "starting_time": "7:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Not included",
+                    "transportation": "Included",
+                    "description": "An evening of lively music and dance performances by family and friends to celebrate the upcoming wedding.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional",
+                    "summary": "Sangeet night with music and dance performances."
+                }
+            },
+            {
+                "event": "Pellikuturu",
+                "date": "2024-08-21",
+                "location": {
+                    "area": "Madhapur",
+                    "city": "Hyderabad",
+                    "pincode": "500081"
+                },
+                "details": {
+                    "starting_time": "11:00 AM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Not included",
+                    "description": "Join us for the Pellikuturu ceremony, a traditional Telugu ritual where the bride is adorned and blessed by her family and friends.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional",
+                    "summary": "Pellikuturu ceremony with blessings and adornment."
+                }
+            },
+            {
+                "event": "Wedding",
+                "date": "2024-08-23",
+                "location": {
+                    "area": "Secunderabad",
+                    "city": "Hyderabad",
+                    "pincode": "500003"
+                },
+                "details": {
+                    "starting_time": "5:00 AM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Witness the grandeur of a traditional Telugu wedding with sacred rituals, blessings, and a grand feast.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional Telugu Attire",
+                    "summary": "Traditional Telugu wedding with sacred rituals and feast."
+                }
+            },
+            {
+                "event": "Reception",
+                "date": "2024-08-25",
+                "location": {
+                    "area": "Gachibowli",
+                    "city": "Hyderabad",
+                    "pincode": "500032"
+                },
+                "details": {
+                    "starting_time": "7:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Celebrate the newlyweds at a grand reception with dinner, music, and dancing.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Formal",
+                    "summary": "Grand reception with dinner and dancing."
+                }
+            }
+        ],
+        "about_host": {
+            "groom_story": "Aditya and Sneha's love story began in Hyderabad, where they met through mutual friends. Their connection was immediate, and their shared values and interests brought them closer. They are excited to start this new chapter together.",
+            "bride_story": "Sneha, with her love for Telugu culture and tradition, found her perfect partner in Aditya. Their relationship is built on trust and mutual respect, making their wedding a celebration of love and tradition."
+        }
+    },
+    {
+        "id": "7",
+        "groom_name": "Amit Bansal",
+        "bride_name": "Pooja Arora",
+        "weddingCity": "Jaipur",
+        "weddingCountry": "India",
+        "weddingPinCode": "302001",
+        "weddingState": "Rajasthan",
+        "image": "https://res.cloudinary.com/dlxjzmiig/image/upload/v1724232441/0f8c2795423c5aa714352d6d56f8afd8_xu72pj.jpg",
+        "main_language": [
+            "Hindi",
+            "Rajasthani"
+        ],
+        "alcohol_offering": "Yes",
+        "diet": "Both",
+        "events": [
+            {
+                "event": "Tilak Ceremony",
+                "date": "2024-09-15",
+                "location": {
+                    "area": "Malviya Nagar",
+                    "city": "Jaipur",
+                    "pincode": "302017"
+                },
+                "details": {
+                    "starting_time": "11:00 AM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Not included",
+                    "description": "The Tilak ceremony marks the beginning of the wedding festivities, with the groom's family blessing the bride's family.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional",
+                    "summary": "Tilak ceremony with blessings from the groom's family."
+                }
+            },
+            {
+                "event": "Mehndi",
+                "date": "2024-09-16",
+                "location": {
+                    "area": "Vaishali Nagar",
+                    "city": "Jaipur",
+                    "pincode": "302021"
+                },
+                "details": {
+                    "starting_time": "2:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Join us for the Mehndi ceremony where the bride's hands will be adorned with intricate henna designs, symbolizing love and joy.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional",
+                    "summary": "Mehndi ceremony with henna application and traditional music."
+                }
+            },
+            {
+                "event": "Wedding",
+                "date": "2024-09-18",
+                "location": {
+                    "area": "Pink City",
+                    "city": "Jaipur",
+                    "pincode": "302002"
+                },
+                "details": {
+                    "starting_time": "8:00 AM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Witness the grandeur of a traditional Rajasthani wedding, complete with sacred rituals, garland exchange, and blessings.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Traditional Rajasthani Attire",
+                    "summary": "Traditional Rajasthani wedding with sacred rituals."
+                }
+            },
+            {
+                "event": "Reception",
+                "date": "2024-09-19",
+                "location": {
+                    "area": "C-Scheme",
+                    "city": "Jaipur",
+                    "pincode": "302001"
+                },
+                "details": {
+                    "starting_time": "7:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Celebrate the newlyweds at a grand reception with traditional Rajasthani cuisine, music, and dance.",
+                    "music_dancing": "Yes",
+                    "dress_code": "Formal",
+                    "summary": "Reception with traditional cuisine and dance."
+                }
+            }
+        ],
+        "about_host": {
+            "groom_story": "Amit and Pooja met during a family event in Jaipur. Their love for Rajasthani culture and tradition brought them closer, leading to a beautiful bond that culminates in their wedding.",
+            "bride_story": "Pooja, with her vibrant personality and deep-rooted love for Rajasthani traditions, found her perfect match in Amit. Their relationship is built on mutual respect and shared values, making their wedding a celebration of love and tradition."
+        }
+    },
+    {
+        "id": "8",
+        "groom_name": "Sameer Khan",
+        "bride_name": "Sara Ali",
+        "weddingCity": "Lucknow",
+        "weddingCountry": "India",
+        "weddingPinCode": "226001",
+        "weddingState": "Uttar Pradesh",
+        "image": "https://res.cloudinary.com/dlxjzmiig/image/upload/v1724232441/0f8c2795423c5aa714352d6d56f8afd8_xu72pj.jpg",
+        "main_language": [
+            "Urdu",
+            "Hindi"
+        ],
+        "alcohol_offering": "No",
+        "diet": "Both",
+        "events": [
+            {
+                "event": "Nikah",
+                "date": "2024-11-15",
+                "location": {
+                    "area": "Hazratganj",
+                    "city": "Lucknow",
+                    "pincode": "226001"
+                },
+                "details": {
+                    "starting_time": "5:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "The Nikah ceremony will be held in a traditional setting, where the couple will exchange vows in the presence of family and friends.",
+                    "music_dancing": "No",
+                    "dress_code": "Traditional Islamic Attire",
+                    "summary": "Traditional Nikah ceremony with exchange of vows."
+                }
+            },
+            {
+                "event": "Walima",
+                "date": "2024-11-16",
+                "location": {
+                    "area": "Gomti Nagar",
+                    "city": "Lucknow",
+                    "pincode": "226010"
+                },
+                "details": {
+                    "starting_time": "7:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Celebrate the couple's union at a grand Walima, featuring traditional Awadhi cuisine and an elegant setting.",
+                    "music_dancing": "No",
+                    "dress_code": "Formal",
+                    "summary": "Walima reception with traditional Awadhi cuisine."
+                }
+            },
+            {
+                "event": "Reception",
+                "date": "2024-11-18",
+                "location": {
+                    "area": "Chowk",
+                    "city": "Lucknow",
+                    "pincode": "226003"
+                },
+                "details": {
+                    "starting_time": "7:00 PM",
+                    "venue_contact": "To be disclosed upon booking",
+                    "accommodation": "Included",
+                    "transportation": "Included",
+                    "description": "Join us for a grand reception in the heart of Lucknow, with cultural performances and a feast to celebrate the newlyweds.",
+                    "music_dancing": "No",
+                    "dress_code": "Formal",
+                    "summary": "Reception with cultural performances and feast."
+                }
+            }
+        ],
+        "about_host": {
+            "groom_story": "Sameer and Sara met through family ties in Lucknow. Their love for the city's rich cultural heritage and traditions brought them closer, leading to their union.",
+            "bride_story": "Sara, with her deep respect for Islamic traditions and values, found her perfect partner in Sameer. Their relationship is built on trust and mutual respect, making their wedding a celebration of love and tradition."
+        }
+    }
+]
