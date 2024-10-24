@@ -16,7 +16,7 @@ import axios from "axios";
 
 const WeddingPage = () => {
   const { _id } = useParams();
-  console.log("wedding Id:",_id);
+  console.log("wedding Id:", _id);
   const [weddingData, setWeddingData] = useState(null);
   const [imageDimenstions, setImageDimentions] = useState();
   const [eventsArray, seteventsarray] = useState([]);
@@ -37,21 +37,23 @@ const WeddingPage = () => {
     });
   };
 
-  const getWedding = async() =>{
-    try{
-      const {data} = await axios.get(`https://bemyguest-backend.onrender.com/weddings/featured-wedding/${_id}`)
-      if(data.success){
+  const getWedding = async () => {
+    try {
+      const { data } = await axios.get(
+        `https://bemyguest-backend.onrender.com/weddings/featured-wedding/${_id}`
+      );
+      if (data.success) {
         setWeddingData(data.wedding);
         seteventsarray(data.wedding.events);
       }
-    }catch(e){
+    } catch (e) {
       console.log(e);
     }
-  }
+  };
 
   useEffect(() => {
-   getWedding();
-   console.log("wedding details:",weddingData);
+    getWedding();
+    console.log("wedding details:", weddingData);
     //Api call need to be added
   }, [_id]);
 
@@ -116,27 +118,21 @@ const WeddingPage = () => {
             {/* <span className="itinerary-span-elem">
               {each.details.transportation}{" "}
             </span> */}
-            <span className="itinerary-span-elem">
-              Included
-            </span>
+            <span className="itinerary-span-elem">Included</span>
           </p>
           <p className="itineary-para">
             Accomodation :{" "}
             {/* <span className="itinerary-span-elem">
               {each.details.accommodation}{" "}
             </span> */}
-            <span className="itinerary-span-elem">
-              Not Included
-            </span>
+            <span className="itinerary-span-elem">Not Included</span>
           </p>
           <p className="itineary-para">
             Music / Dance :{" "}
             {/* <span className="itinerary-span-elem">
               {each.details.music_dancing}{" "}
             </span> */}
-            <span className="itinerary-span-elem">
-              Included
-            </span>
+            <span className="itinerary-span-elem">Included</span>
           </p>
           <p className="itineary-para">
             Dress Code:{" "}
@@ -148,6 +144,8 @@ const WeddingPage = () => {
       </div>
     );
   };
+
+ 
 
   return (
     <section className=" wp-section innerWidth">
@@ -168,9 +166,9 @@ const WeddingPage = () => {
             <h1 className="page-heading">{weddingData.bride_firstname}</h1>
             <div style={{ marginTop: "30px" }}>
               <p className="wedding-page-para">
-                {weddingData.groom_firstname} & {weddingData.bride_firstname} extend's a
-                heartfelt invitation to join them on their wedding day, amidst
-                your travels in India.
+                {weddingData.groom_firstname} & {weddingData.bride_firstname}{" "}
+                extend's a heartfelt invitation to join them on their wedding
+                day, amidst your travels in India.
               </p>
               <div className="wedding-page-para-rs">
                 <p className="wedding-page-para-two">
@@ -187,6 +185,7 @@ const WeddingPage = () => {
                   <button className="wedding-page-button">
                     Pay with <SiRazorpay />
                   </button>
+                  
                 </motion.div>
               </div>
             </div>
