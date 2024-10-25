@@ -54,8 +54,8 @@ app.post('/create-checkout-session', async (req, res) => {
       },
     ],
     mode: 'payment',
-    success_url: 'https://bemyguest-8bla.onrender.com/',
-    cancel_url: 'https://bemyguest-8bla.onrender.com/',
+    success_url: 'https://bemyguest-8bla.onrender.com',
+    cancel_url: 'https://bemyguest-8bla.onrender.com',
   });
 
   res.json({ id: session.id });
