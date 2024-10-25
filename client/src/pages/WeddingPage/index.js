@@ -37,7 +37,7 @@ const WeddingPage = () => {
     const stripe = await stripePromise;
 
     // Call your backend to create a Checkout session
-    const { data } = await axios.post('http://localhost:5000/create-checkout-session');
+    const { data } = await axios.post('https://bemyguest-backend.onrender.com/create-checkout-session');
     
     // Redirect to Stripe Checkout
     const { error } = await stripe.redirectToCheckout({
