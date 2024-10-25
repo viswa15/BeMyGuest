@@ -182,7 +182,7 @@ const CermonyGuideDetails = ({
           />
 
           <TextField
-            label="Paypal email ID *"
+            label="Stripe email ID *"
             variant="filled"
             size="small"
             name="paypal_email"
