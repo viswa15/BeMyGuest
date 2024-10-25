@@ -126,7 +126,7 @@ import featuredWedding from "../models/featuredWedding.js";
 //     return res.status(201).json({
 //       success : true,
 //       message: "Wedding created successfully",
-     
+
 //     });
 //   } catch (error) {
 //     // Handle errors
@@ -167,12 +167,14 @@ export const createWeddingDetailsController = async (req, res) => {
       ceremony_guide_email,
       ceremony_guide_relation_with_couple,
       ceremony_guide_spoken_language,
-      paypal_email
+      paypal_email,
     } = req.body;
 
     // Validation checks for each required field
     if (!relation_with_couple) {
-      return res.status(400).json({ message: "Relation with couple is required." });
+      return res
+        .status(400)
+        .json({ message: "Relation with couple is required." });
     }
     if (!weddingCity) {
       return res.status(400).json({ message: "city is required." });
@@ -187,7 +189,9 @@ export const createWeddingDetailsController = async (req, res) => {
       return res.status(400).json({ message: "state is required." });
     }
     if (!groom_firstname) {
-      return res.status(400).json({ message: "Groom's first name is required." });
+      return res
+        .status(400)
+        .json({ message: "Groom's first name is required." });
     }
     if (!groom_surname) {
       return res.status(400).json({ message: "Groom's surname is required." });
@@ -196,10 +200,14 @@ export const createWeddingDetailsController = async (req, res) => {
       return res.status(400).json({ message: "Groom's email is required." });
     }
     if (!groom_number) {
-      return res.status(400).json({ message: "Groom's phone number is required." });
+      return res
+        .status(400)
+        .json({ message: "Groom's phone number is required." });
     }
     if (!bride_firstname) {
-      return res.status(400).json({ message: "Bride's first name is required." });
+      return res
+        .status(400)
+        .json({ message: "Bride's first name is required." });
     }
     if (!bride_surname) {
       return res.status(400).json({ message: "Bride's surname is required." });
@@ -208,43 +216,79 @@ export const createWeddingDetailsController = async (req, res) => {
       return res.status(400).json({ message: "Bride's email is required." });
     }
     if (!bride_number) {
-      return res.status(400).json({ message: "Bride's phone number is required." });
+      return res
+        .status(400)
+        .json({ message: "Bride's phone number is required." });
     }
     if (!image) {
       return res.status(400).json({ message: "Image is required." });
     }
-    if (!about_host || !about_host.groomSideStory || !about_host.brideSideStory) {
-      return res.status(400).json({ message: "Host stories for both groom and bride are required." });
+    if (
+      !about_host ||
+      !about_host.groomSideStory ||
+      !about_host.brideSideStory
+    ) {
+      return res
+        .status(400)
+        .json({
+          message: "Host stories for both groom and bride are required.",
+        });
     }
     if (!days_of_event) {
-      return res.status(400).json({ message: "Number of event days is required." });
+      return res
+        .status(400)
+        .json({ message: "Number of event days is required." });
     }
     if (!events || !Array.isArray(events) || events.length === 0) {
-      return res.status(400).json({ message: "At least one event detail is required." });
+      return res
+        .status(400)
+        .json({ message: "At least one event detail is required." });
     }
-    if (!main_language || !Array.isArray(main_language) || main_language.length === 0) {
-      return res.status(400).json({ message: "At least one main language is required." });
+    if (
+      !main_language ||
+      !Array.isArray(main_language) ||
+      main_language.length === 0
+    ) {
+      return res
+        .status(400)
+        .json({ message: "At least one main language is required." });
     }
     if (!diet || !Array.isArray(diet) || diet.length === 0) {
-      return res.status(400).json({ message: "At least one diet preference is required." });
+      return res
+        .status(400)
+        .json({ message: "At least one diet preference is required." });
     }
     if (!ceremony_guide_first_name) {
-      return res.status(400).json({ message: "Ceremony guide's first name is required." });
+      return res
+        .status(400)
+        .json({ message: "Ceremony guide's first name is required." });
     }
     if (!ceremony_guide_last_name) {
-      return res.status(400).json({ message: "Ceremony guide's last name is required." });
+      return res
+        .status(400)
+        .json({ message: "Ceremony guide's last name is required." });
     }
     if (!ceremony_guide_number) {
-      return res.status(400).json({ message: "Ceremony guide's phone number is required." });
+      return res
+        .status(400)
+        .json({ message: "Ceremony guide's phone number is required." });
     }
     if (!ceremony_guide_email) {
-      return res.status(400).json({ message: "Ceremony guide's email is required." });
+      return res
+        .status(400)
+        .json({ message: "Ceremony guide's email is required." });
     }
     if (!ceremony_guide_relation_with_couple) {
-      return res.status(400).json({ message: "Ceremony guide's relation with the couple is required." });
+      return res
+        .status(400)
+        .json({
+          message: "Ceremony guide's relation with the couple is required.",
+        });
     }
     if (!ceremony_guide_spoken_language) {
-      return res.status(400).json({ message: "Ceremony guide's spoken language is required." });
+      return res
+        .status(400)
+        .json({ message: "Ceremony guide's spoken language is required." });
     }
     if (!paypal_email) {
       return res.status(400).json({ message: "PayPal email is required." });
@@ -277,14 +321,16 @@ export const createWeddingDetailsController = async (req, res) => {
       ceremony_guide_email,
       ceremony_guide_relation_with_couple,
       ceremony_guide_spoken_language,
-      paypal_email
+      paypal_email,
     });
 
     // Save the document to the database
     await weddingDetails.save();
 
     // Send a success response
-    res.status(201).json({ success : true,message: "Wedding details saved successfully." });
+    res
+      .status(201)
+      .json({ success: true, message: "Wedding details saved successfully." });
   } catch (error) {
     // Handle errors
     console.error(error);
@@ -293,11 +339,15 @@ export const createWeddingDetailsController = async (req, res) => {
 };
 
 //get top 6 weddings
-export const getTopSixWeddingsController = async(req,res) =>{
+export const getTopSixWeddingsController = async (req, res) => {
   try {
     const limit = parseInt(req.query.limit) || 6; // default to 6 items
-    const page = parseInt(req.query.page) || 1;  // default to page 1
-    const weddings = await featuredWedding.find().sort({ createdAt: -1 }).limit(limit).skip((page - 1) * limit);;
+    const page = parseInt(req.query.page) || 1; // default to page 1
+    const weddings = await featuredWedding
+      .find()
+      .sort({ createdAt: -1 })
+      .limit(limit)
+      .skip((page - 1) * limit);
     const weddingsLength = weddings.length;
     res.status(201).send({
       success: true,
@@ -313,7 +363,7 @@ export const getTopSixWeddingsController = async(req,res) =>{
       e,
     });
   }
-}
+};
 
 //get all weddings
 export const getWeddingsController = async (req, res) => {
@@ -322,6 +372,46 @@ export const getWeddingsController = async (req, res) => {
     res.status(201).send({
       success: true,
       message: "Successfully retrieved",
+      weddings,
+    });
+  } catch (e) {
+    console.log(e);
+    res.status(500).send({
+      success: false,
+      message: "Error during retrieving weddings",
+      e,
+    });
+  }
+};
+
+//get filtredWedding
+export const getFiltredWeddingsController = async (req, res) => {
+  try {
+    // Get current date
+    const today = new Date();
+
+    // Query to find upcoming weddings only
+    const weddings = await featuredWedding.aggregate([
+      {
+        $addFields: {
+          firstEventDate: {
+            $toDate: { $arrayElemAt: ["$events.date", 0] }, // Convert the first event's date to a Date object
+          },
+        },
+      },
+      {
+        $match: {
+          firstEventDate: { $gte: today }, // Filter weddings where the first event date is after today
+        },
+      },
+      {
+        $sort: { firstEventDate: 1 }, // Optional: Sort by the first event date
+      },
+    ]);
+
+    res.status(201).send({
+      success: true,
+      message: "Successfully retrieved upcoming weddings",
       weddings,
     });
   } catch (e) {

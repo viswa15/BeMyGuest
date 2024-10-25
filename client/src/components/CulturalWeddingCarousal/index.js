@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Carousel } from "nuka-carousel";
 import "./index.css";
-// import data from "../../utils/indian-wedding-cultures.json";
+import data from "../../utils/indian-wedding-cultures.json";
 import CulturalWeddItem from "../CulturalWeddItem";
 import NotFound from "../NotFound";
 import LoaderView from "../LoaderView";
@@ -16,34 +16,34 @@ const apiStatuslist = {
 };
 
 const CarosoulEffect = () => {
-  const [apiStatus, setapiStatus] = useState(apiStatuslist.initial);
-  const [weddingCultures,setWeddingCultures] = useState([]);
+  // const [apiStatus, setapiStatus] = useState(apiStatuslist.initial);
+  // const [weddingCultures,setWeddingCultures] = useState([]);
 
-  //get cultures wedding
-  const getWeddingCultures = async() =>{
-    try{
-        const {data} = await axios.get(`${process.env.REACT_APP_API}/static-content/wedding-cultures`)
-        if(data.success === true){
-          setWeddingCultures(data.weddings);
-        }
-    }catch(e){
-      console.log(e)
-    }
-  }
+  // //get cultures wedding
+  // const getWeddingCultures = async() =>{
+  //   try{
+  //       const {data} = await axios.get(`${process.env.REACT_APP_API}/static-content/wedding-cultures`)
+  //       if(data.success === true){
+  //         setWeddingCultures(data.weddings);
+  //       }
+  //   }catch(e){
+  //     console.log(e)
+  //   }
+  // }
 
-  //for wedding cultures
-  useEffect(()=>{
-    getWeddingCultures();
-    console.log("wedding cultures list:",weddingCultures)
-  },[])
+  // //for wedding cultures
+  // useEffect(()=>{
+  //   getWeddingCultures();
+  //   console.log("wedding cultures list:",weddingCultures)
+  // },[])
 
-  if (apiStatus === apiStatuslist.inProgress) {
-    return <LoaderView />;
-  }
+  // if (apiStatus === apiStatuslist.inProgress) {
+  //   return <LoaderView />;
+  // }
 
-  if (apiStatus === apiStatuslist.failure) {
-    return <NotFound />;
-  }
+  // if (apiStatus === apiStatuslist.failure) {
+  //   return <NotFound />;
+  // }
   //Loading, NotFound Work need to be done after setting of API
 
   const errorComp = () => {
@@ -65,16 +65,14 @@ const CarosoulEffect = () => {
           padding={50}
           showDots
         >
-          {Object.keys(weddingCultures).length === 0 && apiStatus === apiStatuslist.success
-            ? errorComp()
-            : weddingCultures.map((item) => (
-                <CulturalWeddItem item={item} id={item._id} />
-                // <img
-                //   src={item.image_link}
-                //   alt="wedding_name"
-                //   className="cultures-image"
-                // />
-              ))}
+          {data.map((item) => (
+            <CulturalWeddItem item={item} id={item._id} />
+            // <img
+            //   src={item.image_link}
+            //   alt="wedding_name"
+            //   className="cultures-image"
+            // />
+          ))}
         </Carousel>
       </div>
     </div>

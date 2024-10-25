@@ -11,7 +11,7 @@ const formatDate = (dateString) => {
 };
 
 const WeddingItem = ({ weddingdetails }) => {
-  const { groom_name, bride_name, weddingCity, weddingCountry, image, _id, events } =
+  const { groom_firstname, bride_firstname, weddingCity, weddingCountry, image, _id, events } =
     weddingdetails;
 
   const firstEventDate = events.length > 0 ? formatDate(events[0].date) : "N/A";
@@ -32,7 +32,7 @@ const WeddingItem = ({ weddingdetails }) => {
         }}
       >
         <h1 className="wi-names">
-          {groom_name} & {bride_name}
+          {groom_firstname} & {bride_firstname}
         </h1>
       </div>
       <div className="wi-lower-conatainer">

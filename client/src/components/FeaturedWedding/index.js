@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./index.css";
 import data from "../../utils/dummyweddings.json";
 import WeddingItem from "../WeddingItem";
@@ -10,46 +10,36 @@ import LoaderView from "../LoaderView";
 import Error from "../Error";
 import axios from "axios";
 
-const apiStatuslist = {
-  initial: "INITIAL",
-  inProgress: "IN_PROGRESS",
-  success: "SUCCESS",
-  failure: "FAILURE",
-};
-
 const FeaturedWedding = () => {
-  const [apiStatus, setapiStatus] = useState(apiStatuslist.initial);
-  const [weddingsList,setWeddingsList] = useState([]);
+  const [loading, setLoader] = useState(true);
+  const [weddingsList, setWeddingsList] = useState([]);
   const navigate = useNavigate();
 
   //get featured weddings
-  const getFeaturedWeddings = async() =>{
-    try{
-      const {data} = await axios.get(`https://bemyguest-backend.onrender.com/weddings/recent-weddings`)
-      if(data.success){
-        setWeddingsList(data.weddings)
+  const getFeaturedWeddings = async () => {
+    try {
+      const { data } = await axios.get(
+        `https://bemyguest-backend.onrender.com/weddings/recent-weddings`
+      );
+      if (data.success) {
+        setWeddingsList(data.weddings);
+        setLoader(false);
       }
-    }catch(e){
+    } catch (e) {
       console.log(e);
+      setLoader(false);
     }
-  }
+  };
 
-  useEffect(()=>{
+  useEffect(() => {
     getFeaturedWeddings();
-    console.log("weddings list:",weddingsList)
-  },[])
+    console.log("weddings list:", weddingsList);
+  }, []);
 
   const handleLoadMore = () => {
     navigate("/weddings");
   };
 
-  if (apiStatus === apiStatuslist.inProgress) {
-    return <LoaderView />;
-  }
-
-  if (apiStatus === apiStatuslist.failure) {
-    return <NotFound />;
-  }
   //Loading, NotFound Work need to be done after setting of API
 
   const errorComp = () => {
@@ -66,11 +56,8 @@ const FeaturedWedding = () => {
   //     console.error('Error fetching data:', error);
   //   }
   // }
-  
-  // fetchSixItems();
 
-  
-  
+  // fetchSixItems();
 
   return (
     <div className="fw-container">
@@ -89,11 +76,13 @@ const FeaturedWedding = () => {
       </h3>
 
       <div className="fw-inner-container">
-        {Object.keys(weddingsList).length === 0 && apiStatus === apiStatuslist.success
-          ? errorComp()
-          : weddingsList.map((item) => (
-              <WeddingItem id={item.id} weddingdetails={item} />
-            ))}
+        {loading ? (
+          <LoaderView />
+        ) : (
+          weddingsList.map((item) => (
+            <WeddingItem id={item.id} weddingdetails={item} />
+          ))
+        )}
       </div>
       <motion.div
         whileHover={{ y: 8 }}

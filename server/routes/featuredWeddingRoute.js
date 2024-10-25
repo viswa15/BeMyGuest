@@ -1,19 +1,28 @@
-import express from 'express'
+import express from "express";
 
-import { createWeddingDetailsController,getTopSixWeddingsController,getWeddingsController,getWeddingController } from '../controllers/featuredWeddingController.js';
+import {
+  createWeddingDetailsController,
+  getTopSixWeddingsController,
+  getFiltredWeddingsController,
+  getWeddingsController,
+  getWeddingController,
+} from "../controllers/featuredWeddingController.js";
 
 const router = express.Router();
 
 //add a wedding
-router.post("/add-wedding",createWeddingDetailsController);
+router.post("/add-wedding", createWeddingDetailsController);
 
 //get top 6 weddings
-router.get("/recent-weddings",getTopSixWeddingsController)
+router.get("/recent-weddings", getTopSixWeddingsController);
 
 //get all weddings
-router.get("/featured-weddings",getWeddingsController);
+router.get("/featured-weddings", getWeddingsController);
+
+//get all filtred weddings
+router.get("/filtred-featured-weddings", getFiltredWeddingsController);
 
 //get wedding based on its id
-router.get("/featured-wedding/:_id",getWeddingController);
+router.get("/featured-wedding/:_id", getWeddingController);
 
 export default router;
