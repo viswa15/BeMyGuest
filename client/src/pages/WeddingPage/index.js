@@ -4,8 +4,9 @@ import data from "../../utils/dummyweddings.json";
 import "./index.css";
 // import Error from "../../components/Error";
 import NotFound from "../../components/NotFound";
-import { SiRazorpay } from "react-icons/si";
+import { SiRazorpay, } from "react-icons/si";
 import { MdOutlinePlace } from "react-icons/md";
+import { FaStripeS } from "react-icons/fa";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -13,7 +14,11 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { motion } from "framer-motion";
 import axios from "axios";
+import { loadStripe } from '@stripe/stripe-js';
 
+ const stripePromise = loadStripe('pk_test_51QDSJlEKPFFf3t4JhDIZnJWJYlNdNtzPW2FYd9Ht26CmQlywii9A4AWYTxJ3FNwJ5gTHtoHHAX3A2gVJkPuhZj0V00GEeKne43');
+// const stripePromise = loadStripe(`${process.env.REACT_APP_STRIPE_PUBLIC_KEY}`)
+console.log("public key",process.env.REACT_APP_STRIPE_PUBLIC_KEY)
 const WeddingPage = () => {
   const { _id } = useParams();
   console.log("wedding Id:", _id);
@@ -27,6 +32,23 @@ const WeddingPage = () => {
 
     setImageDimentions(isHorizontal ? "horizontal-image" : "vertical-image");
   };
+
+  const handleCheckout = async () => {
+    const stripe = await stripePromise;
+
+    // Call your backend to create a Checkout session
+    const { data } = await axios.post('http://localhost:5000/create-checkout-session');
+    
+    // Redirect to Stripe Checkout
+    const { error } = await stripe.redirectToCheckout({
+      sessionId: data.id,
+    });
+
+    if (error) {
+      console.error('Stripe Checkout Error:', error);
+    }
+  };
+
 
   const formatDate = (dateString) => {
     const date = new Date(dateString);
@@ -176,14 +198,14 @@ const WeddingPage = () => {
                   entry to all ceremonies during the event.
                 </p>
                 <p style={{ margin: "0px", marginTop: "10px" }}>
-                  $125 USD <span className="wp-span-elem">per person</span>
+                  $50 USD <span className="wp-span-elem">per person</span>
                 </p>
                 <motion.div
                   whileHover={{ y: 3 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
-                  <button className="wedding-page-button">
-                    Pay with <SiRazorpay />
+                  <button className="wedding-page-button" onClick={handleCheckout}>
+                    Pay with <FaStripeS />
                   </button>
                   
                 </motion.div>
